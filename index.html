@@ -9,21 +9,69 @@
     <title>Главная</title>
 </head>
 <body>
-    <header>
-        <div class="w-full flex">
-            <div id="mobile__nav" class="bg-figmabg1 fixed top-0 right-0 flex flex-col h-screen w-full md:w-1/2 pt-12 transform translate-x-full transition duration-300 ease-in-out z-30">
-                <svg id="toggler__expanded" class="text-black w-6 h-6 top-4 left-4 cursor-pointer ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                </svg>
-                <div class="flex flex-col h-full mt-4 p-4">
-                    <a href="" class="uppercase my-5">All products</a>
-                    <a href="" class="uppercase my-5">Solutions</a>
-                    <a href="" class="uppercase my-5">About</a>
-                    <a href="" class="uppercase my-5">Support</a> 
+    <header class="flex flex-col">
+        <div class="w-full bg-mainred h-[3px]"></div>
+        <div class="container mx-auto mt-[22px] flex justify-between items-start">
+            <div class="flex items-center">
+                <img src="Assets/Images/header/logo.webp" alt="">
+            </div>
+            <div class="flex font-semibold">
+                <div class="flex mr-[44px] items-center h-fit">
+                    <img src="Assets/Images/header/clock.webp" alt="" class="mr-[13px]">
+                    <p class="text-sm mr-[10px]">ПН-ПТ с 8-21; СБ с 8-14;</p>
+                </div>
+                <div class="flex flex-col mr-[52px] h-fit">
+                    <div class="flex items-center">
+                        <img src="Assets/Images/header/phone.webp" alt="" class="mr-3">
+                        <p class="text-lg">+7 (929) 949-56-06</p>
+                    </div>
+                    <a href="" class="uppercase text-mainred text-xs w-fit self-end" style="border-bottom: 2px dotted #a31d1d">заказать звонок</a>
+                </div>
+                <div class="flex items-center h-fit">
+                    <img src="Assets/Images/header/signin.webp" alt="" class="mr-3">
+                    <p class="text-sm uppercase">войти</p>
                 </div>
             </div>
-            <div class="w-full h-screen fixed top-0 right-0 hidden z-10 bg-gray-900 opacity-70" id="overlay"></div>
         </div>
+        <div class="flex mt-6 mx-auto container items-center justify-around">
+            <div class="flex w-[153px] bg-mainred text-white rounded-lg h-[42px] items-center justify-center mr-[21px]">
+                <p class="text-sm uppercase mr-[14px] font-extrabold">каталог</p>
+                <img src="Assets/Images/header/catalog.webp" alt="">
+            </div>
+            <button class="mr-[19px] flex items-center">
+                <img src="Assets/Images/header/new.webp" alt="">
+            </button>
+            <button class="mr-[22px] flex items-center">
+                <img src="Assets/Images/header/sale.webp" alt="">
+            </button>
+            <form action="" class="flex items-center w-[435px] 2xl:grow h-[42px] relative mr-[22px]">
+                <input type="text" class="italic w-full h-full pl-[18px] rounded-lg bg-[#f0f0f0] border border-[#c8c8c8]" placeholder="Поиск по сайту">
+                <img src="Assets/Images/header/search.webp" alt="" class="absolute right-[13px]">
+            </form>
+            <button class="flex items-center mr-[25px]">
+                <p class="text-sm uppercase text-[#fb8c16] mr-[13px] font-extrabold">скачать прайс</p>
+                <img src="Assets/Images/header/download.webp" alt="">
+            </button>
+            <button class="flex items-center justify-center relative mr-4 border-[2px] border-mainred rounded-[50%] h-[42px] w-[42px]">
+                <img src="Assets/Images/header/heart.webp" alt="">
+                <div class="border-[2px] border-mainred rounded-[50%] h-[23px] w-[23px] text-mainred absolute -top-2 -right-2 bg-white flex justify-center items-center">
+                    <p class="w-fit font-semibold">0</p>
+                </div>
+            </button>
+            <button class="flex items-center justify-center relative mr-[19px] border-[2px] border-mainred rounded-[50%] h-[42px] w-[42px]">
+                <img src="Assets/Images/header/star.webp" alt="">
+            </button>
+            <a class="flex items-center justify-center mr-[19px] font-extrabold">
+                <span class="text-mainred text-sm uppercase mr-1.5">корзина</span>
+                <div class="relative">
+                    <img src="Assets/Images/header/cart.webp" alt="">
+                    <div class="border-[2px] border-mainred rounded-[50%] h-[23px] w-[23px] text-white absolute -top-2 -right-2 bg-mainred flex justify-center items-center">
+                        <p class="w-fit font-semibold">0</p>
+                    </div>
+                </div>
+            </a>            
+        </div>
+        <div class="w-full bg-[#d5d5d5] h-px mt-[23px]"></div>
     </header>  
 
     <footer></footer>

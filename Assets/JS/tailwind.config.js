@@ -7,8 +7,8 @@ tailwind.config = {
     },
     container: {
       padding: {
-        DEFAULT: '1rem',
-        sm: '2rem',
+        DEFAULT: '15px',
+        sm: '15px',
         md: '15px',
         lg: '15px',
         xl: '10px',

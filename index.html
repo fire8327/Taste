@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="Assets/CSS/custom.css">
     <title>Главная</title>
 </head>
@@ -118,6 +119,51 @@
         </div>
     </header>  
 
+    <div class="container mx-auto flex items-center">
+        <div class="swiper h-[67px] md:h-[102px] w-full header-swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper w-full px-10">
+              <!-- Slides -->
+              <div class="swiper-slide flex h-full justify-center w-fit items-center mr-[23px] md:mr-[28px] lg:mr-[31px]">
+                  <img src="Assets/Images/header-slider/1.webp" alt="" class="mr-[10px]">
+                  <p class="text-sm uppercase">рыба</p>
+              </div>
+              <div class="swiper-slide flex h-full justify-center w-fit items-center mr-[23px] md:mr-[28px] lg:mr-[31px]">
+                  <img src="Assets/Images/header-slider/2.webp" alt="" class="mr-[10px]">
+                  <p class="text-sm uppercase">морские и речные деликатесы</p>
+              </div>
+              <div class="swiper-slide flex h-full justify-center w-fit items-center mr-[23px] md:mr-[28px] lg:mr-[31px]">
+                  <img src="Assets/Images/header-slider/3.webp" alt="" class="mr-[10px]">
+                  <p class="text-sm uppercase">икра</p>
+              </div>
+              <div class="swiper-slide flex h-full justify-center w-fit items-center mr-[23px] md:mr-[28px] lg:mr-[31px]">
+                  <img src="Assets/Images/header-slider/4.webp" alt="" class="mr-[10px]">
+                  <p class="text-sm uppercase">сыры и молочные продукты</p>
+              </div>
+              <div class="swiper-slide flex h-full justify-center w-fit items-center mr-[23px] md:mr-[28px] lg:mr-[31px]">
+                  <img src="Assets/Images/header-slider/5.webp" alt="" class="mr-[10px]">
+                  <p class="text-sm uppercase">фермерские продукты</p>
+              </div>
+              <div class="swiper-slide flex h-full justify-center w-fit items-center mr-[23px] md:mr-[28px] lg:mr-[31px]">
+                  <img src="Assets/Images/header-slider/6.webp" alt="" class="mr-[10px]">
+                  <p class="text-sm uppercase">мясо</p>
+              </div>
+              <div class="swiper-slide flex h-full justify-center w-fit items-center mr-[23px] md:mr-[28px] lg:mr-[31px]">
+                  <img src="Assets/Images/header-slider/7.webp" alt="" class="mr-[10px]">
+                  <p class="text-sm uppercase">курица</p>
+              </div>
+              <div class="swiper-slide flex h-full justify-center w-fit items-center mr-[23px] md:mr-[28px] lg:mr-[31px]">
+                  <img src="Assets/Images/header-slider/8.webp" alt="" class="mr-[10px]">
+                  <p class="text-sm uppercase">овощи</p>
+              </div>
+            </div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev hidden md:block"></div>
+            <div class="swiper-button-next hidden md:block"></div>
+          </div>
+    </div>
+
     <div class="container mx-auto flex flex-col lg:flex-row hidden md:flex">
         <div class="flex flex-col w-full lg:h-fit lg:w-fit text-[34px] uppercase w-full lg:w-[378px] relative items-center mr-[35px]">
             <p class="z-50 h-fit px-[11px]">интернет-магазин вкусных продуктов</p>
@@ -162,8 +208,9 @@
 
     <footer></footer>
     
-    <script src="https://unpkg.com/flowbite@1.5.4/dist/flowbite.js"></script>
     <script src="Assets/JS/tailwind.config.js"></script>
     <script src="Assets/JS/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="Assets/JS/slider.js"></script>
 </body>
 </html>

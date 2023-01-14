@@ -1,0 +1,9 @@
+.swiper-button-prev, .swiper-button-next{
+    --swiper-theme-color: #a31d1d;
+}
+.swiper-button-prev:active, .swiper-button-next:active {
+    --swiper-theme-color: #fb8c16;
+}
+.swiper-slide {
+    width:auto!important
+}

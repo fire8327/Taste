@@ -187,7 +187,7 @@
                 <p class="text-[24px] xl:text-[26px] font-semibold uppercase">подпишитесь</p>
                 <p class="text-[16px] xl:text-[18px] font-semibold uppercase">чтобы не пропустить акции</p>
             </div>
-            <form class="h-[47px] flex items-center w-full md:w-[429px] xl:w-[448px] relative lg:mr-[21px] xl:mr-[71px] mt-[13px] ;g:mt-0">
+            <form class="h-[47px] flex items-center w-full md:w-[429px] xl:w-[448px] relative lg:mr-[21px] xl:mr-[71px] mt-[13px] lg:mt-0">
                 <input type="text" class="h-full bg-white rounded-lg grow pl-[17px]" placeholder="Ваша почта">
                 <button class="rounded-lg bg-[#fb8c16] h-full flex items-center justify-center w-[135px] xl:w-[140px] absolute text-white right-0">
                     <span class="font-bold text-sm uppercase">подписаться</span>
@@ -206,7 +206,58 @@
         </div>
     </div>
 
-    <footer></footer>
+    <footer class="flex flex-col w-full bg-[url('Assets/Images/footer/bg.webp')] bg-cover">
+        <div class="container mx-auto flex mt-4 font-semibold items-start">
+            <div class="flex items-center mr-[52px]">
+                <img src="Assets/Images/footer/logo.webp" alt="" class="hidden xl:block">
+                <img src="Assets/Images/footer/sublogo.webp" alt="" class="xl:hidden">
+            </div>
+            <div class="flex flex-col text-white uppercase mr-[50px]">
+                <a class="flex items-center w-fit md:h-[48px] xl:h-[59px]">
+                    <span class="text-sm h-fit border-b-[2px] border-white">о нас</span>                    
+                </a>
+                <div class="flex mt-[25px]">
+                    <div class="flex flex-col text-sm uppercase mr-[52px]">
+                        <a href="">о компании</a>
+                        <a href="" class="mt-[21px]">доставка</a>
+                        <a href="" class="mt-[21px]">оплата</a>
+                    </div>
+                    <div class="flex flex-col text-sm uppercase">
+                        <a href="">реквизиты</a>
+                        <a href="" class="mt-[21px]">отзывы</a>
+                        <a href="" class="mt-[21px]">контакты</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col text-white uppercase lg:mr-[53px] xl:mr-[56px]">
+                <a class="flex items-center w-fit md:h-[48px] xl:h-[59px]">
+                    <span class="text-sm h-fit border-b-[2px] border-white">покупателям</span>                    
+                </a>
+                <div class="flex mt-[25px]">
+                    <div class="flex flex-col text-sm uppercase mr-[52px]">
+                        <a href="">каталог</a>
+                        <a href="" class="mt-[21px]">акции</a>
+                        <a href="" class="mt-[21px]">избранное</a>
+                        <a href="" class="mt-[21px]">хиты продаж</a>
+                    </div>
+                    <div class="flex flex-col text-sm uppercase">
+                        <a href="">новинки</a>
+                        <a href="" class="mt-[21px]">рецепты</a>
+                        <a href="" class="mt-[21px]">оптовикам</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col text-white w-[282px] hidden lg:flex">
+                <p class="text-[21px] md:h-[48px] xl:h-[59px] flex items-center">
+                    <span>+7 (929) 949-56-06</span>
+                </p>
+                <p class="text-[16px] mt-[26px]">Московская область, г. Домодедово, Каширское ш., д. 2</p>
+                <a class="mt-[26px] uppercase text-sm border-b-[2px] border-white w-fit">пользовательское соглашение</a>
+                <a class="mt-[19px] uppercase text-sm border-b-[2px] border-white w-fit">политика конфиденциальности</a>
+                <a class="mt-[19px] uppercase text-sm border-b-[2px] border-white w-fit">публичная оферта</a>
+            </div>
+        </div>
+    </footer>
     
     <script src="Assets/JS/tailwind.config.js"></script>
     <script src="Assets/JS/custom.js"></script>

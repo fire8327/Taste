@@ -1,8 +1,7 @@
 const swiper = new Swiper('.header-swiper', {
-    // Navigation arrows
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.header-slider-next',
+      prevEl: '.header-slider-prev',
     },
     breakpoints: {
         320: {
@@ -17,5 +16,26 @@ const swiper = new Swiper('.header-swiper', {
         1280: {
             slidesPerView: 5,
         }
-      }
-  });
+    }
+});
+
+const swiper2 = new Swiper('.promo-slider', {
+    loop:true,
+    pagination: {
+      el: '.promo-slider-pagination',
+    },
+    navigation: {
+      nextEl: '.promo-slider-next',
+      prevEl: '.promo-slider-prev',
+    },
+});
+const swiper3 = new Swiper('.product-slider', {
+    loop:true,
+    pagination: {
+      el: '.product-slider-pagination',
+    },
+    navigation: {
+      nextEl: '.product-slider-next',
+      prevEl: '.product-slider-prev',
+    },
+});

@@ -1,9 +1,12 @@
-.swiper-button-prev, .swiper-button-next{
+.swiper-button-prev, .swiper-button-next, .swiper-pagination-bullet-active{
     --swiper-theme-color: #a31d1d;
 }
 .swiper-button-prev:active, .swiper-button-next:active {
     --swiper-theme-color: #fb8c16;
 }
-.swiper-slide {
+.swiper-slide-header {
     width:auto!important
+}
+.promo-slider-prev::after,.promo-slider-next::after, .product-slider-prev::after, .product-slider-next::after {
+    display:none;
 }

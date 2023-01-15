@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="Assets/CSS/custom.css">
     <title>Главная</title>
 </head>
@@ -90,7 +90,7 @@
                 </button>
                 <form action="" class="flex items-center w-[435px] 2xl:grow h-[42px] relative mr-[22px]">
                     <input type="text" class="italic w-full h-full pl-[18px] rounded-lg bg-[#f0f0f0] border border-[#c8c8c8]" placeholder="Поиск по сайту">
-                    <img src="Assets/Images/header/search.webp" alt="" class="absolute right-[13px]">
+                    <img src="Assets/Images/header/search.webp" alt="" class="absolute right-0">
                 </form>
                 <button class="flex items-center mr-[25px]">
                     <p class="text-sm uppercase text-[#fb8c16] mr-[13px] font-extrabold hidden xl:flex">скачать прайс</p>
@@ -124,47 +124,193 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper w-full md:px-10">
               <!-- Slides -->
-              <div class="swiper-slide flex h-full justify-center w-fit items-center mr-[23px] md:mr-[28px] lg:mr-[31px]">
+              <div class="swiper-slide flex h-full justify-center w-fit items-center mr-[23px] md:mr-[28px] lg:mr-[31px] swiper-slide-header">
                   <img src="Assets/Images/header-slider/1.webp" alt="" class="mr-[10px]">
                   <p class="text-sm uppercase">рыба</p>
               </div>
-              <div class="swiper-slide flex h-full justify-center w-fit items-center mr-[23px] md:mr-[28px] lg:mr-[31px]">
+              <div class="swiper-slide flex h-full justify-center w-fit items-center mr-[23px] md:mr-[28px] lg:mr-[31px] swiper-slide-header">
                   <img src="Assets/Images/header-slider/2.webp" alt="" class="mr-[10px]">
                   <p class="text-sm uppercase">морские и речные деликатесы</p>
               </div>
-              <div class="swiper-slide flex h-full justify-center w-fit items-center mr-[23px] md:mr-[28px] lg:mr-[31px]">
+              <div class="swiper-slide flex h-full justify-center w-fit items-center mr-[23px] md:mr-[28px] lg:mr-[31px] swiper-slide-header">
                   <img src="Assets/Images/header-slider/3.webp" alt="" class="mr-[10px]">
                   <p class="text-sm uppercase">икра</p>
               </div>
-              <div class="swiper-slide flex h-full justify-center w-fit items-center mr-[23px] md:mr-[28px] lg:mr-[31px]">
+              <div class="swiper-slide flex h-full justify-center w-fit items-center mr-[23px] md:mr-[28px] lg:mr-[31px] swiper-slide-header">
                   <img src="Assets/Images/header-slider/4.webp" alt="" class="mr-[10px]">
                   <p class="text-sm uppercase">сыры и молочные продукты</p>
               </div>
-              <div class="swiper-slide flex h-full justify-center w-fit items-center mr-[23px] md:mr-[28px] lg:mr-[31px]">
+              <div class="swiper-slide flex h-full justify-center w-fit items-center mr-[23px] md:mr-[28px] lg:mr-[31px] swiper-slide-header">
                   <img src="Assets/Images/header-slider/5.webp" alt="" class="mr-[10px]">
                   <p class="text-sm uppercase">фермерские продукты</p>
               </div>
-              <div class="swiper-slide flex h-full justify-center w-fit items-center mr-[23px] md:mr-[28px] lg:mr-[31px]">
+              <div class="swiper-slide flex h-full justify-center w-fit items-center mr-[23px] md:mr-[28px] lg:mr-[31px] swiper-slide-header">
                   <img src="Assets/Images/header-slider/6.webp" alt="" class="mr-[10px]">
                   <p class="text-sm uppercase">мясо</p>
               </div>
-              <div class="swiper-slide flex h-full justify-center w-fit items-center mr-[23px] md:mr-[28px] lg:mr-[31px]">
+              <div class="swiper-slide flex h-full justify-center w-fit items-center mr-[23px] md:mr-[28px] lg:mr-[31px] swiper-slide-header">
                   <img src="Assets/Images/header-slider/7.webp" alt="" class="mr-[10px]">
                   <p class="text-sm uppercase">курица</p>
               </div>
-              <div class="swiper-slide flex h-full justify-center w-fit items-center mr-[23px] md:mr-[28px] lg:mr-[31px]">
+              <div class="swiper-slide flex h-full justify-center w-fit items-center mr-[23px] md:mr-[28px] lg:mr-[31px] swiper-slide-header">
                   <img src="Assets/Images/header-slider/8.webp" alt="" class="mr-[10px]">
                   <p class="text-sm uppercase">овощи</p>
               </div>
             </div>
           
             <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev hidden md:block"></div>
-            <div class="swiper-button-next hidden md:block"></div>
+            <div class="swiper-button-prev hidden md:block header-slider-prev"></div>
+            <div class="swiper-button-next hidden md:block header-slider-next"></div>
           </div>
     </div>
+    
+    <div class="container mx-auto flex items-center">
+        <div class="swiper promo-slider h-fit md:mr-[22px] lg:mr-[26px] xl:mr-[30px] w-full md:w-[506px] lg:w-[484px] xl:w-[820px]">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper w-full">
+              <!-- Slides -->
+              <div class="swiper-slide flex items-center w-full justify-center">
+                <picture>
+                    <source media="(min-width:1280px)" srcset="Assets/Images/promo-slider/1280.png">
+                    <source media="(min-width:1024px)" srcset="Assets/Images/promo-slider/1024.png">
+                    <source media="(min-width:768px)" srcset="Assets/Images/promo-slider/800.png">
+                    <img src="Assets/Images/promo-slider/480.png" alt="" class="md:h-[541px] lg:h-auto w-full">
+                </picture>
+              </div>
+              <div class="swiper-slide flex items-center w-full justify-center">
+                <picture>
+                    <source media="(min-width:1280px)" srcset="Assets/Images/promo-slider/1280.png">
+                    <source media="(min-width:1024px)" srcset="Assets/Images/promo-slider/1024.png">
+                    <source media="(min-width:768px)" srcset="Assets/Images/promo-slider/800.png">
+                    <img src="Assets/Images/promo-slider/480.png" alt="" class="md:h-[541px] lg:h-auto w-full">
+                </picture>
+              </div>
+              <div class="swiper-slide flex items-center w-full justify-center">
+                <picture>
+                    <source media="(min-width:1280px)" srcset="Assets/Images/promo-slider/1280.png">
+                    <source media="(min-width:1024px)" srcset="Assets/Images/promo-slider/1024.png">
+                    <source media="(min-width:768px)" srcset="Assets/Images/promo-slider/800.png">
+                    <img src="Assets/Images/promo-slider/480.png" alt="" class="md:h-[541px] lg:h-auto w-full">
+                </picture>
+              </div>
+              <div class="swiper-slide flex items-center w-full justify-center">
+                <picture>
+                    <source media="(min-width:1280px)" srcset="Assets/Images/promo-slider/1280.png">
+                    <source media="(min-width:1024px)" srcset="Assets/Images/promo-slider/1024.png">
+                    <source media="(min-width:768px)" srcset="Assets/Images/promo-slider/800.png">
+                    <img src="Assets/Images/promo-slider/480.png" alt="" class="md:h-[541px] lg:h-auto w-full">
+                </picture>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination promo-slider-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev promo-slider-prev hidden md:flex bg-white rounded-full w-[45px] h-[45px] group border-[1px] border-[#aeaeae] flex items-center justify-center pr-1">
+                <svg width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="group-active:fill-[#fb8c16] fill-[#A31D1D]">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0381 0.017328L0.076664 11.3597L0.683778 11.9999L0.076664 12.6401L12.0381 23.9825L13.4142 22.5312L2.30807 11.9999L13.4142 1.46854L12.0381 0.017328Z"/>
+                </svg>
+            </div>
+            <div class="swiper-button-next promo-slider-next hidden md:flex bg-white rounded-full w-[45px] h-[45px] group border-[1px] border-[#aeaeae] flex items-center justify-center pl-1">
+                <svg width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="group-active:fill-[#fb8c16] fill-[#A31D1D]">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.96185 0.017328L13.9233 11.3597L13.3162 11.9999L13.9233 12.6401L1.96185 23.9825L0.58569 22.5312L11.6919 11.9999L0.58569 1.46854L1.96185 0.017328Z"/>
+                </svg>                    
+            </div>
+        </div>    
+        <div class="swiper product-slider h-fit md:w-[240px] lg:w-[483px] xl:w-[347px] hidden md:flex items-center bg-white shadow-lg border-[1px] border-[#d5d5d5]">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide flex flex-col justify-around items-center md:h-[541px] lg:h-[365px] xl:h-[488px] px-[18px] relative">
+                <div class="flex flex-col lg:flex-row lg:justify-between w-full">
+                    <p class="text-[22px] font-bold uppercase w-fit">товар дня</p>
+                    <p class="text-[22px] font-bold uppercase w-fit text-[#bababa]">
+                        <span>6</span> дней <span>16</span>:<span>25</span>:<span>55</span>
+                    </p>
+                </div>
+                <div class="flex flex-col lg:flex-row xl:flex-col text-left justify-around">
+                    <img src="Assets/Images/product-slider/item1.png" alt="">
+                    <div class="flex flex-col absolute md:top-[81px] lg:top-[56px] left-0 text-white font-semibold">
+                        <div class="flex items-center bg-mainred rounded-r-lg h-6 w-[54px] justify-center"><p>-30%</p></div>
+                        <div class="flex items-center bg-[#fb8c16] rounded-r-lg h-6 w-[54px] justify-center mt-[6px] uppercase"><p>new</p></div>
+                    </div>
+                    <div class="flex flex-col absolute right-[13px] top-[66px] lg:hidden xl:flex">
+                        <button class="flex items-center">
+                            <img src="Assets/Images/product-slider/heart.webp" alt="">
+                        </button>
+                        <button class="flex items-center mt-4">
+                            <img src="Assets/Images/product-slider/star.webp" alt="">
+                        </button>
+                        <button class="flex items-center mt-4">
+                            <img src="Assets/Images/product-slider/list.webp" alt="">
+                        </button>
+                    </div>
+                    <div class="flex absolute left-[69px] top-[57px] hidden lg:flex xl:hidden">
+                        <button class="flex items-center">
+                            <img src="Assets/Images/product-slider/heart.webp" alt="">
+                        </button>
+                        <button class="flex items-center ml-[18px]">
+                            <img src="Assets/Images/product-slider/star.webp" alt="">
+                        </button>
+                        <button class="flex items-center ml-4">
+                            <img src="Assets/Images/product-slider/list.webp" alt="">
+                        </button>
+                    </div>
+                    <div class="flex flex-col justify-around">
+                        <p class="text-sm text-[#5b5b5b]">Арт: 38472</p>
+                        <p class="w-fit font-bold text-[16px]">Семга слабосоленая пласт <br class="hidden xl:block"> «Поедим рыбки» (в/у 0.6-1 кг.)</p>
+                        <div class="flex items-center">
+                            <div class="w-[7px] h-[7px] rounded-full bg-[#65ac00] mr-2"></div>
+                            <p class="text-[#65ac00] text-[15px]">Есть в наличии</p>
+                        </div>
+                        <div class="flex ">
+                            <div class="flex flex-col w-fit">
+                                <p class="text-[15px] text-[#65ac00] w-fit"><span class="font-bold text-[20px]">~385</span> р./кг</p>
+                                <p class="text-sm text-[#9d9d9d] w-fit">Оптом от коробки</p>
+                                <p class="text-sm text-[#9d9d9d] w-fit">≈ 20 кг</p>
+                            </div>
+                            <div class="w-px h-[49px] bg-[#d5d5d5] ml-4 mr-[23px]"></div>
+                            <div class="flex flex-col">
+                                <p class="text-[15px]"><span class="font-bold text-[20px]">1 776</span> р/кг.</p>
+                                <p class="text-[15px] text-[#9d9d9d]">В розницу</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-[84px] mr-5"></div>
+                            <div class="flex flex-col hidden xl:flex">
+                                <p class="text-sm text-[#9d9d9d]">Итого:</p>
+                                <p class="text-[16px]"><span class="font-bold">1 750</span> р/кг.</p>
+                            </div>
+                            <div class="flex items-center justify-center rounded-full bg-mainred w-[42px] h-[42px] ml-[21px]">
+                                <img src="Assets/Images/product-slider/cart.webp" alt="">
+                            </div>
+                        </div>
+                        <div class="flex flex-col xl:hidden">
+                            <p class="text-sm text-[#9d9d9d]">Итого:</p>
+                            <p class="text-[16px]"><span class="font-bold">1 750</span> р/кг.</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination product-slider-pagination"></div>
+          
+            <!-- If we need navigation buttons -->            
+            <div class="swiper-button-prev product-slider-prev hidden md:flex group flex items-center justify-center pr-1">
+                <svg width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="group-active:fill-[#fb8c16] fill-[#A31D1D]">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0381 0.017328L0.076664 11.3597L0.683778 11.9999L0.076664 12.6401L12.0381 23.9825L13.4142 22.5312L2.30807 11.9999L13.4142 1.46854L12.0381 0.017328Z"/>
+                </svg>
+            </div>
+            <div class="swiper-button-next product-slider-next hidden md:flex group flex items-center justify-center pl-1">
+                <svg width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="group-active:fill-[#fb8c16] fill-[#A31D1D]">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.96185 0.017328L13.9233 11.3597L13.3162 11.9999L13.9233 12.6401L1.96185 23.9825L0.58569 22.5312L11.6919 11.9999L0.58569 1.46854L1.96185 0.017328Z"/>
+                </svg>                    
+            </div>
+          </div>      
+    </div>
 
-    <div class="container mx-auto flex flex-col lg:flex-row hidden md:flex">
+    <div class="container mx-auto flex flex-col lg:flex-row hidden md:flex justify-center md:mt-[50px] lg:mt-[71px]">
         <div class="flex flex-col w-full lg:h-fit lg:w-fit text-[34px] uppercase w-full lg:w-[378px] relative items-center mr-[35px]">
             <p class="z-50 h-fit px-[11px]">интернет-магазин вкусных продуктов</p>
             <div class="absolute bottom-2 h-[14px] w-full bg-[#ffdf4c]"></div>

@@ -122,7 +122,7 @@
     <div class="container mx-auto flex items-center">
         <div class="swiper h-[67px] md:h-[102px] w-full header-swiper">
             <!-- Additional required wrapper -->
-            <div class="swiper-wrapper w-full px-10">
+            <div class="swiper-wrapper w-full md:px-10">
               <!-- Slides -->
               <div class="swiper-slide flex h-full justify-center w-fit items-center mr-[23px] md:mr-[28px] lg:mr-[31px]">
                   <img src="Assets/Images/header-slider/1.webp" alt="" class="mr-[10px]">
@@ -181,7 +181,7 @@
         </div>
     </div>
 
-    <div class="flex lg:h-[88px] items-center border-t-[3px] border-[#ffdf4c] bg-[#393939] w-full xl:mt-[91px]">
+    <div class="flex lg:h-[88px] items-center border-t-[3px] border-[#ffdf4c] bg-[#393939] w-full mt-[49px] md:mt-[55px] lg:mt-[67px] xl:mt-[91px]">
         <div class="container mx-auto flex flex-col lg:flex-row items-center text-center lg:text-start">
             <div class="flex flex-col text-white w-fit lg:mr-[25px] xl:mr-[29px] mt-4 lg:mt-0">
                 <p class="text-[24px] xl:text-[26px] font-semibold uppercase">подпишитесь</p>
@@ -208,32 +208,32 @@
 
     <footer class="flex flex-col w-full bg-[url('Assets/Images/footer/bg.webp')] bg-cover">
         <div class="container mx-auto flex mt-4 font-semibold items-start">
-            <div class="flex items-center mr-[52px]">
+            <div class="flex items-center mr-[18px] md:mr-[47px] lg:mr-[52px]">
                 <img src="Assets/Images/footer/logo.webp" alt="" class="hidden xl:block">
                 <img src="Assets/Images/footer/sublogo.webp" alt="" class="xl:hidden">
             </div>
-            <div class="flex flex-col text-white uppercase mr-[50px]">
-                <a class="flex items-center w-fit md:h-[48px] xl:h-[59px]">
+            <div class="flex flex-col text-white uppercase mr-[20px] md:mr-[50px]">
+                <a class="flex items-center w-fit h-[48px] xl:h-[59px]">
                     <span class="text-sm h-fit border-b-[2px] border-white">о нас</span>                    
                 </a>
-                <div class="flex mt-[25px]">
+                <div class="flex mt-[25px] flex-col md:flex-row">
                     <div class="flex flex-col text-sm uppercase mr-[52px]">
                         <a href="">о компании</a>
                         <a href="" class="mt-[21px]">доставка</a>
                         <a href="" class="mt-[21px]">оплата</a>
                     </div>
                     <div class="flex flex-col text-sm uppercase">
-                        <a href="">реквизиты</a>
+                        <a href="" class="mt-[21px] md:mt-0">реквизиты</a>
                         <a href="" class="mt-[21px]">отзывы</a>
                         <a href="" class="mt-[21px]">контакты</a>
                     </div>
                 </div>
             </div>
             <div class="flex flex-col text-white uppercase lg:mr-[53px] xl:mr-[56px]">
-                <a class="flex items-center w-fit md:h-[48px] xl:h-[59px]">
+                <a class="flex items-center w-fit h-[48px] xl:h-[59px]">
                     <span class="text-sm h-fit border-b-[2px] border-white">покупателям</span>                    
                 </a>
-                <div class="flex mt-[25px]">
+                <div class="flex mt-[25px] flex-col md:flex-row">
                     <div class="flex flex-col text-sm uppercase mr-[52px]">
                         <a href="">каталог</a>
                         <a href="" class="mt-[21px]">акции</a>
@@ -241,7 +241,7 @@
                         <a href="" class="mt-[21px]">хиты продаж</a>
                     </div>
                     <div class="flex flex-col text-sm uppercase">
-                        <a href="">новинки</a>
+                        <a href="" class="mt-[21px] md:mt-0">новинки</a>
                         <a href="" class="mt-[21px]">рецепты</a>
                         <a href="" class="mt-[21px]">оптовикам</a>
                     </div>
@@ -255,6 +255,31 @@
                 <a class="mt-[26px] uppercase text-sm border-b-[2px] border-white w-fit">пользовательское соглашение</a>
                 <a class="mt-[19px] uppercase text-sm border-b-[2px] border-white w-fit">политика конфиденциальности</a>
                 <a class="mt-[19px] uppercase text-sm border-b-[2px] border-white w-fit">публичная оферта</a>
+            </div>
+        </div>
+        <div class="container mx-auto mt-[27px] border-t-[1px] border-[#aeaeae] flex justify-between pt-[15px] pb-[13px] hidden lg:flex">
+            <p class="text-sm font-semibold text-white">© 2022 Изобилие вкуса.ру - интернет-магазин продуктов. Все права защищены</p>
+            <div class="flex items-center">
+                <a href=""><img src="Assets/Images/footer/vk.webp" alt="" class="mr-5"></a>
+                <a href=""><img src="Assets/Images/footer/whatsapp.webp" alt="" class="mr-5"></a>
+                <a href=""><img src="Assets/Images/footer/tg.webp" alt="" class="mr-2"></a>
+            </div>
+        </div>
+        <div class="container mx-auto md:mt-[33px] border-t-[1px] border-[#aeaeae] lg:hidden flex items-center justify-center text-white">
+            <div class="flex flex-col py-7">
+                <p class="text-[21px] flex items-center">
+                    <span>+7 (929) 949-56-06</span>
+                </p>
+                <p class="text-[16px] mt-[26px] w-fit">Московская область, г. Домодедово, <br> Каширское ш., д. 2</p>
+                <a class="mt-[26px] uppercase text-sm border-b-[2px] border-white w-fit">публичная оферта</a>
+                <div class="flex items-center mt-7">
+                    <a href=""><img src="Assets/Images/footer/vk.webp" alt="" class="mr-5"></a>
+                    <a href=""><img src="Assets/Images/footer/whatsapp.webp" alt="" class="mr-5"></a>
+                    <a href=""><img src="Assets/Images/footer/tg.webp" alt="" class="mr-2"></a>
+                </div>
+                <a class="mt-[30px] uppercase text-sm border-b-[2px] border-white w-fit">пользовательское соглашение</a>
+                <a class="mt-[19px] uppercase text-sm border-b-[2px] border-white w-fit">политика конфиденциальности</a>
+                <p class="text-sm font-semibold mt-[27px] w-fit">© 2022 Изобилие вкуса.ру - интернет-магазин <br> продуктов. Все права защищены</p>
             </div>
         </div>
     </footer>

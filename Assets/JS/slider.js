@@ -39,3 +39,78 @@ const swiper3 = new Swiper('.product-slider', {
       prevEl: '.product-slider-prev',
     },
 });
+const swiper4 = new Swiper('.stocks-slider', {
+    loop:true,
+    navigation: {
+      nextEl: '.stocks-slider-next',
+      prevEl: '.stocks-slider-prev',
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 2,
+        spaceBetween:16,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween:22,
+      },
+      1024: {
+          slidesPerView: 4,
+          spaceBetween:25,
+      },
+      1280: {
+          slidesPerView: 4,
+          spaceBetween:29,
+      },
+  }
+});
+const swiper5 = new Swiper('.news-slider', {
+    loop:true,
+    navigation: {
+      nextEl: '.news-slider-next',
+      prevEl: '.news-slider-prev',
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 2,
+        spaceBetween:16,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween:22,
+      },
+      1024: {
+          slidesPerView: 4,
+          spaceBetween:25,
+      },
+      1280: {
+          slidesPerView: 4,
+          spaceBetween:29,
+      },
+  }
+});
+const swiper6 = new Swiper('.hits-slider', {
+    loop:true,
+    navigation: {
+      nextEl: '.hits-slider-next',
+      prevEl: '.hits-slider-prev',
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 2,
+        spaceBetween:16,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween:22,
+      },
+      1024: {
+          slidesPerView: 4,
+          spaceBetween:25,
+      },
+      1280: {
+          slidesPerView: 4,
+          spaceBetween:29,
+      },
+  }
+});

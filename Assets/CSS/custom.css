@@ -7,6 +7,6 @@
 .swiper-slide-header {
     width:auto!important
 }
-.promo-slider-prev::after,.promo-slider-next::after, .product-slider-prev::after, .product-slider-next::after {
+.header-slider-prev::after, .header-slider-next::after, .promo-slider-prev::after,.promo-slider-next::after, .product-slider-prev::after, .product-slider-next::after {
     display:none;
 }

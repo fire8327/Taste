@@ -7,6 +7,19 @@
 .swiper-slide-header {
     width:auto!important
 }
-.header-slider-prev::after, .header-slider-next::after, .promo-slider-prev::after,.promo-slider-next::after, .product-slider-prev::after, .product-slider-next::after {
+.categories-slider-prev::after, .categories-slider-next::after, .header-slider-prev::after, .header-slider-next::after, .promo-slider-prev::after,.promo-slider-next::after, .product-slider-prev::after, .product-slider-next::after {
     display:none;
+}
+
+.categories-slider-next, .categories-slider-prev {
+    position: static;
+    top: 0;
+    width: auto;
+    height: auto;
+    margin-top: 0;
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

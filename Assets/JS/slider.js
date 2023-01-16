@@ -114,3 +114,9 @@ const swiper6 = new Swiper('.hits-slider', {
       },
   }
 });
+const swiper7 = new Swiper('.categories-slider', {
+    navigation: {
+      nextEl: '.categories-slider-next',
+      prevEl: '.categories-slider-prev',
+    },
+});

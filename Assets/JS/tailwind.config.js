@@ -14,6 +14,6 @@ tailwind.config = {
         xl: '10px',
         '2xl': '30px',
       },
-    },
+    }
   },
 };

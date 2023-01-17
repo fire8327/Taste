@@ -25,16 +25,16 @@
                     <img src="Assets/Images/header/signin.webp" alt="" class="mr-[3px]">
                 </div>
             </div>
-            <div class="container mx-auto flex justify-around h-[68px] items-center">
-                <div class="flex items-center mr-[22px]">
+            <div class="container mx-auto flex justify-around h-[68px] items-center relative">
+                <button class="flex items-center mr-[22px]" id="toggler1">
                     <img src="Assets/Images/header/menu.webp" alt="">
-                </div>
-                <div class="flex items-center mr-[29px]">
+                </button>
+                <button class="flex items-center mr-[29px]">
                     <img src="Assets/Images/header/logo.webp" alt="">
-                </div>
-                <div class="flex items-center mr-[26px]">
+                </button>
+                <button class="flex items-center mr-[26px]" id="search" type="button">
                     <img src="Assets/Images/header/search.webp" alt="">
-                </div>
+                </button>
                 <button class="flex items-center justify-center relative mr-[21px] h-[27px] w-[27px]">
                     <img src="Assets/Images/header/heart.webp" alt="">
                     <div class="border-[2px] border-mainred rounded-[50%] h-[23px] w-[23px] text-mainred absolute -top-3 -right-3 bg-white flex justify-center items-center">
@@ -49,7 +49,16 @@
                             <p class="w-fit font-semibold">45</p>
                         </div>
                     </div>
-                </a> 
+                </a>
+                <div class="container mx-auto h-full bg-white absolute top-0 left-0 flex items-center opacity-0 -translate-y-full transform transition-all duration-300 ease-in-out gap-[18px]" id="search_block">
+                    <form action="" class="flex items-center grow h-[42px] relative">
+                        <input type="text" class="italic w-full h-full pl-[18px] rounded-lg bg-[#f0f0f0] border border-[#c8c8c8]" placeholder="Поиск по сайту">
+                        <img src="Assets/Images/header/search.webp" alt="" class="absolute right-4">
+                    </form>
+                    <button type="button" id="close_search">
+                        <img src="Assets/Images/header/search_close.webp" alt="">
+                    </button>
+                </div> 
             </div>
             <div class="w-full bg-[#d5d5d5] h-px"></div>
         </div>
@@ -78,7 +87,7 @@
                 </div>
             </div>
             <div class="flex mt-6 mx-auto container items-center justify-around">
-                <button class="flex w-[153px] bg-mainred text-white rounded-lg h-[42px] items-center justify-center mr-[21px]" id="toggler">
+                <button class="flex w-[153px] bg-mainred text-white rounded-lg h-[42px] items-center justify-center mr-[21px]" id="toggler2">
                     <p class="text-sm uppercase mr-[14px] font-extrabold">каталог</p>
                     <img src="Assets/Images/header/catalog.webp" alt="">
                 </button>
@@ -90,7 +99,7 @@
                 </button>
                 <form action="" class="flex items-center w-[435px] 2xl:grow h-[42px] relative mr-[22px]">
                     <input type="text" class="italic w-full h-full pl-[18px] rounded-lg bg-[#f0f0f0] border border-[#c8c8c8]" placeholder="Поиск по сайту">
-                    <img src="Assets/Images/header/search.webp" alt="" class="absolute right-0">
+                    <img src="Assets/Images/header/search.webp" alt="" class="absolute right-4">
                 </form>
                 <button class="flex items-center mr-[25px]">
                     <p class="text-sm uppercase text-[#fb8c16] mr-[13px] font-extrabold hidden xl:flex">скачать прайс</p>
@@ -117,12 +126,95 @@
             </div>
             <div class="w-full bg-[#d5d5d5] h-px mt-[23px]"></div>
         </div>
-        <div id="mobile__nav" class="bg-[#f0f0f0] opacity-0 absolute top-full left-0 h-fit w-full md:w-4/5 lg:w-full pt-12 transform transition duration-300 ease-in-out z-30">
-            <div class="container mx-auto mt-[39px] grid grid-cols-4 gap-[23px]">
-
+        <div id="mobile__nav" class="bg-[#f0f0f0] opacity-0 absolute top-full left-0 h-fit w-full md:w-4/5 lg:w-full transform transition duration-300 ease-in-out z-30">
+            <div class="w-full bg-mainred text-white">
+                <div class="container mx-auto flex justify-between items-center uppercase font-extrabold py-3">
+                    <div class="flex gap-[6px] items-center">
+                        <p class="text-[12px]">новинки</p>
+                        <img src="Assets/Images/header/m_new.webp" alt="">
+                    </div>
+                    <div class="flex gap-[6px] items-center">
+                        <p class="text-[12px]">акции</p>
+                        <img src="Assets/Images/header/m_action.webp" alt="">
+                    </div>
+                    <div class="flex gap-[6px] items-center hidden mf:flex">
+                        <p class="text-[12px]">хиты продаж</p>
+                        <img src="Assets/Images/header/m_star.png" alt="">
+                    </div>
+                    <button class="text-white rounded-lg bg-mainred border-[1px] border-white py-[11px] px-[14px] uppercase font-extrabold text-[12px]">заказать звонок</button>
+                    <button id="close" type="button">
+                        <img src="Assets/Images/header/m_close.webp" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="container mx-auto py-[23px] lg:py-[39px] grid grid-cols-1 lg:grid-cols-4 gap-[13px] lg:gap-[23px] uppercase">
+                <a class="flex items-center gap-[10px]" href="">
+                    <img src="Assets/Images/categories/1.webp" alt="">
+                    <p class="text-sm">рыба</p>
+                </a>
+                <a class="flex items-center gap-[10px]" href="">
+                    <img src="Assets/Images/categories/2.webp" alt="">
+                    <p class="text-sm">фермерские продукты</p>
+                </a>
+                <a class="flex items-center gap-[10px]" href="">
+                    <img src="Assets/Images/categories/3.webp" alt="">
+                    <p class="text-sm">бакалея и гастрономия</p>
+                </a>
+                <a class="flex items-center gap-[10px]" href="">
+                    <img src="Assets/Images/categories/4.webp" alt="">
+                    <p class="text-sm">безалкогольные напитки</p>
+                </a>
+                <a class="flex items-center gap-[10px]" href="">
+                    <img src="Assets/Images/categories/5.webp" alt="">
+                    <p class="text-sm">морские и речные деликатесы</p>
+                </a>
+                <a class="flex items-center gap-[10px]" href="">
+                    <img src="Assets/Images/categories/6.webp" alt="">
+                    <p class="text-sm">птица</p>
+                </a>
+                <a class="flex items-center gap-[10px]" href="">
+                    <img src="Assets/Images/categories/7.webp" alt="">
+                    <p class="text-sm">закуска к пиву</p>
+                </a>
+                <a class="flex items-center gap-[10px]" href="">
+                    <img src="Assets/Images/categories/8.webp" alt="">
+                    <p class="text-sm">продукты из азии</p>
+                </a>
+                <a class="flex items-center gap-[10px] hidden lg:flex" href="">
+                    <img src="Assets/Images/categories/9.webp" alt="">
+                    <p class="text-sm">икра</p>
+                </a>
+                <a class="flex items-center gap-[10px] hidden lg:flex" href="">
+                    <img src="Assets/Images/categories/10.webp" alt="">
+                    <p class="text-sm">мясо</p>
+                </a>
+                <a class="flex items-center gap-[10px] hidden lg:flex" href="">
+                    <img src="Assets/Images/categories/11.webp" alt="">
+                    <p class="text-sm">кулинария</p>
+                </a>
+                <a class="flex items-center gap-[10px] hidden lg:flex" href="">
+                    <img src="Assets/Images/categories/12.webp" alt="">
+                    <p class="text-sm">всё для суши и роллов</p>
+                </a>
+                <a class="flex items-center gap-[10px] hidden lg:flex" href="">
+                    <img src="Assets/Images/categories/13.webp" alt="">
+                    <p class="text-sm">сыры и молочные продукты</p>
+                </a>
+                <a class="flex items-center gap-[10px] hidden lg:flex" href="">
+                    <img src="Assets/Images/categories/14.webp" alt="">
+                    <p class="text-sm">сухофрукты, орехи, семечки</p>
+                </a>
+                <a class="flex items-center gap-[10px] hidden lg:flex" href="">
+                    <img src="Assets/Images/categories/15.webp" alt="">
+                    <p class="text-sm">кондитерские изделия</p>
+                </a>
+                <a class="flex items-center gap-[10px] hidden lg:flex" href="">
+                    <img src="Assets/Images/categories/16.webp" alt="">
+                    <p class="text-sm">замороженные овощи, ягоды, грибы</p>
+                </a>
             </div>  
-            <div class="w-full bg-white">
-                <div class="container mx-auto flex justify-center gap-[27px] uppercase semibold text-sm items-center py-[30px]">
+            <div class="w-full bg-white z-30">
+                <div class="container mx-auto flex flex-col lg:flex-row justify-center gap-[27px] uppercase semibold text-sm lg:items-center py-[30px]">
                     <a href="">о компании</a>
                     <a href="">доставка</a>
                     <a href="">оплата</a>
@@ -367,7 +459,7 @@
     <div class="flex flex-col container mx-auto mt-[49px] lg:mt-[69px]">
         <div class="flex justify-between items-center">
             <div class="flex flex-col h-fit w-fit text-[34px] uppercase relative items-center">
-                <p class="z-50 h-fit px-[11px] font-semibold">акции</p>
+                <p class="z-20 h-fit px-[11px] font-semibold">акции</p>
                 <div class="absolute bottom-2 h-[14px] w-full bg-[#ffdf4c]"></div>
             </div>
             <div class="flex items-center">
@@ -1594,7 +1686,11 @@
             </div>
         </div>
     </footer>
-    
+
+    <button id="to-top-button" onclick="goToTop()" class="hidden fixed z-50 bottom-5 md:bottom-8 right-5 md:right-8 w-12 h-12 rounded-full drop-shadow-md bg-[#fb8c16] border-[1px] border-mainred flex items-center justify-center">
+        <img src="Assets/Images/to-top/arrow.png" alt="">              
+    </button>
+
     <script src="Assets/JS/tailwind.config.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="Assets/JS/slider.js"></script>

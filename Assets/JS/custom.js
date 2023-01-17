@@ -16,15 +16,15 @@ const body = document.getElementsByTagName("body")[0];
 
 toggler1.addEventListener("click", () => {
   mNav.classList.toggle("opacity-0");
-  body.classList.toggle("overflow-x-hidden");
+  body.classList.toggle("overflow-hidden");
 });
 toggler2.addEventListener("click", () => {
   mNav.classList.toggle("opacity-0");
-  body.classList.toggle("overflow-x-hidden");
+  body.classList.toggle("overflow-hidden");
 });
 close.addEventListener("click", () => {
   mNav.classList.toggle("opacity-0");
-  body.classList.toggle("overflow-x-hidden");
+  body.classList.toggle("overflow-hidden");
 });
 
 /* search */

@@ -10,7 +10,7 @@
     <title>Главная</title>
 </head>
 <body>
-    <header>
+    <header class="relative">
         <div class="flex flex-col md:hidden">
             <div class="w-full bg-[#f4f4f4]">
                 <div class="container mx-auto flex justify-around items-center h-[44px] font-semibold">
@@ -78,10 +78,10 @@
                 </div>
             </div>
             <div class="flex mt-6 mx-auto container items-center justify-around">
-                <div class="flex w-[153px] bg-mainred text-white rounded-lg h-[42px] items-center justify-center mr-[21px]">
+                <button class="flex w-[153px] bg-mainred text-white rounded-lg h-[42px] items-center justify-center mr-[21px]" id="toggler">
                     <p class="text-sm uppercase mr-[14px] font-extrabold">каталог</p>
                     <img src="Assets/Images/header/catalog.webp" alt="">
-                </div>
+                </button>
                 <button class="mr-[19px] flex items-center hidden lg:flex">
                     <img src="Assets/Images/header/new.webp" alt="">
                 </button>
@@ -116,6 +116,22 @@
                 </a>            
             </div>
             <div class="w-full bg-[#d5d5d5] h-px mt-[23px]"></div>
+        </div>
+        <div id="mobile__nav" class="bg-[#f0f0f0] opacity-0 absolute top-full left-0 h-fit w-full md:w-4/5 lg:w-full pt-12 transform transition duration-300 ease-in-out z-30">
+            <div class="container mx-auto mt-[39px] grid grid-cols-4 gap-[23px]">
+
+            </div>  
+            <div class="w-full bg-white">
+                <div class="container mx-auto flex justify-center gap-[27px] uppercase semibold text-sm items-center py-[30px]">
+                    <a href="">о компании</a>
+                    <a href="">доставка</a>
+                    <a href="">оплата</a>
+                    <a href="">оптовикам</a>
+                    <a href="">отзывы</a>
+                    <a href="">рецепты</a>
+                    <a href="">контакты</a>            
+                </div>
+            </div>
         </div>
     </header>  
 

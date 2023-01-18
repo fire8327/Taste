@@ -10,6 +10,7 @@ if (prev.classList.contains("swiper-button-disabled") && next.classList.contains
 /*jshint esnext: true */
 const toggler1 = document.getElementById("toggler1");
 const toggler2 = document.getElementById("toggler2");
+const overlay = document.getElementById("overlay");
 const close = document.getElementById("close");
 const mNav = document.getElementById("mobile__nav");
 const body = document.getElementsByTagName("body")[0];
@@ -17,14 +18,22 @@ const body = document.getElementsByTagName("body")[0];
 toggler1.addEventListener("click", () => {
   mNav.classList.toggle("opacity-0");
   body.classList.toggle("overflow-hidden");
+  overlay.classList.toggle("hidden");
 });
 toggler2.addEventListener("click", () => {
   mNav.classList.toggle("opacity-0");
   body.classList.toggle("overflow-hidden");
+  overlay.classList.toggle("hidden");
 });
 close.addEventListener("click", () => {
   mNav.classList.toggle("opacity-0");
   body.classList.toggle("overflow-hidden");
+  overlay.classList.toggle("hidden");
+});
+overlay.addEventListener("click", () => {
+  mNav.classList.toggle("opacity-0");
+  body.classList.toggle("overflow-hidden");
+  overlay.classList.toggle("hidden");
 });
 
 /* search */

@@ -17,21 +17,25 @@ const body = document.getElementsByTagName("body")[0];
 
 toggler1.addEventListener("click", () => {
   mNav.classList.toggle("opacity-0");
+  mNav.classList.toggle("-z-30");
   body.classList.toggle("overflow-hidden");
   overlay.classList.toggle("hidden");
 });
 toggler2.addEventListener("click", () => {
   mNav.classList.toggle("opacity-0");
+  mNav.classList.toggle("-z-30");
   body.classList.toggle("overflow-hidden");
   overlay.classList.toggle("hidden");
 });
 close.addEventListener("click", () => {
   mNav.classList.toggle("opacity-0");
+  mNav.classList.toggle("-z-30");
   body.classList.toggle("overflow-hidden");
   overlay.classList.toggle("hidden");
 });
 overlay.addEventListener("click", () => {
   mNav.classList.toggle("opacity-0");
+  mNav.classList.toggle("-z-30");
   body.classList.toggle("overflow-hidden");
   overlay.classList.toggle("hidden");
 });

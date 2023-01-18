@@ -1,3 +1,7 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .swiper-button-prev, .swiper-button-next, .swiper-pagination-bullet-active{
     --swiper-theme-color: #a31d1d;
 }

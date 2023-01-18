@@ -74,11 +74,15 @@ window.onscroll = function () {
       menu2.classList.add("shadow-2xl");
       sublogo.classList.remove("hidden");
       signin.classList.remove("hidden");
+      mNav.classList.remove("md:top-[175px]");
+      overlay.classList.remove("md:top-[175px]");
     } else {
       menu2.classList.remove("fixed");
       menu2.classList.remove("shadow-2xl");
       sublogo.classList.add("hidden");
       signin.classList.add("hidden");
+      mNav.classList.add("md:top-[175px]");
+      overlay.classList.add("md:top-[175px]");
     }
 
     if (document.body.scrollTop > 68 || document.documentElement.scrollTop > 68) {

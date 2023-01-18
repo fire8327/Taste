@@ -31,9 +31,6 @@ const swiper2 = new Swiper('.promo-slider', {
 });
 const swiper3 = new Swiper('.product-slider', {
     loop:true,
-    pagination: {
-      el: '.product-slider-pagination',
-    },
     navigation: {
       nextEl: '.product-slider-next',
       prevEl: '.product-slider-prev',

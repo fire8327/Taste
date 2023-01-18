@@ -11,7 +11,7 @@
 </head>
 <body>
     <header class="relative">
-        <div class="flex flex-col md:hidden">
+        <div class="flex flex-col md:hidden z-50 bg-white" id="menu1">
             <div class="w-full bg-[#f4f4f4]">
                 <div class="container max-w-[1280px] mx-auto flex justify-around items-center h-[44px] font-semibold">
                     <div class="flex items-center mr-[41px]">
@@ -86,47 +86,54 @@
                     </div>
                 </div>
             </div>
-            <div class="flex mt-6 mx-auto container max-w-[1280px] items-center justify-around">
-                <button class="flex w-[153px] bg-mainred text-white rounded-lg h-[42px] items-center justify-center mr-[21px]" id="toggler2">
-                    <p class="text-sm uppercase mr-[14px] font-extrabold">каталог</p>
-                    <img src="Assets/Images/header/catalog.webp" alt="">
-                </button>
-                <button class="mr-[19px] flex items-center hidden lg:flex">
-                    <img src="Assets/Images/header/new.webp" alt="">
-                </button>
-                <button class="mr-[22px] flex items-center hidden lg:flex">
-                    <img src="Assets/Images/header/sale.webp" alt="">
-                </button>
-                <form action="" class="flex items-center w-[435px] 2xl:grow h-[42px] relative mr-[22px]">
-                    <input type="text" class="italic w-full h-full pl-[18px] rounded-lg bg-[#f0f0f0] border border-[#c8c8c8]" placeholder="Поиск по сайту">
-                    <img src="Assets/Images/header/search.webp" alt="" class="absolute right-4">
-                </form>
-                <button class="flex items-center mr-[25px]">
-                    <p class="text-sm uppercase text-[#fb8c16] mr-[13px] font-extrabold hidden xl:flex">скачать прайс</p>
-                    <img src="Assets/Images/header/download.webp" alt="">
-                </button>
-                <button class="flex items-center justify-center relative mr-4 border-[2px] border-mainred rounded-[50%] h-[42px] w-[42px]">
-                    <img src="Assets/Images/header/heart.webp" alt="">
-                    <div class="border-[2px] border-mainred rounded-[50%] h-[23px] w-[23px] text-mainred absolute -top-2 -right-2 bg-white flex justify-center items-center">
-                        <p class="w-fit font-semibold">0</p>
-                    </div>
-                </button>
-                <button class="flex items-center justify-center relative mr-[19px] border-[2px] border-mainred rounded-[50%] h-[42px] w-[42px] hidden lg:flex">
-                    <img src="Assets/Images/header/star.webp" alt="">
-                </button>
-                <a class="flex items-center justify-center mr-[19px] font-extrabold">
-                    <span class="text-mainred text-sm uppercase mr-1.5 hidden xl:flex">корзина</span>
-                    <div class="relative md:border-[2px] border-mainred rounded-[50%] md:h-[42px] md:w-[42px] flex items-center lg:border-none">
-                        <img src="Assets/Images/header/cart.webp" alt="">
-                        <div class="border-[2px] border-mainred rounded-[50%] h-[23px] w-[23px] text-white absolute -top-2 -right-2 bg-mainred flex justify-center items-center">
-                            <p class="w-fit font-semibold">45</p>
+            <div class="w-full bg-white z-50" id="menu2">
+                <div class="flex my-6 mx-auto container max-w-[1280px] items-center justify-around gap-4">
+                    <img src="Assets/Images/footer/sublogo.webp" alt="" class="hidden" id="sublogo">
+                    <button class="flex px-[25px] bg-mainred text-white rounded-lg h-[42px] items-center justify-center gap-[14px]" id="toggler2">
+                        <p class="text-sm uppercase font-extrabold">каталог</p>
+                        <img src="Assets/Images/header/catalog.webp" alt="">
+                    </button>
+                    <button class="flex items-center hidden lg:flex">
+                        <img src="Assets/Images/header/new.webp" alt="">
+                    </button>
+                    <button class="flex items-center hidden lg:flex">
+                        <img src="Assets/Images/header/sale.webp" alt="">
+                    </button>
+                    <form action="" class="flex items-center grow h-[42px] relative">
+                        <input type="text" class="italic w-full h-full pl-[18px] rounded-lg bg-[#f0f0f0] border border-[#c8c8c8]" placeholder="Поиск по сайту">
+                        <img src="Assets/Images/header/search.webp" alt="" class="absolute right-4">
+                    </form>
+                    <button class="flex items-center">
+                        <p class="text-sm uppercase text-[#fb8c16] mr-[13px] font-extrabold hidden xl:flex">скачать прайс</p>
+                        <img src="Assets/Images/header/download.webp" alt="">
+                    </button>
+                    <button class="flex items-center justify-center relative border-[2px] border-mainred rounded-[50%] h-[42px] w-[42px]">
+                        <img src="Assets/Images/header/heart.webp" alt="">
+                        <div class="border-[2px] border-mainred rounded-[50%] h-[23px] w-[23px] text-mainred absolute -top-2 -right-2 bg-white flex justify-center items-center">
+                            <p class="w-fit font-semibold">0</p>
                         </div>
+                    </button>
+                    <button class="flex items-center justify-center relative border-[2px] border-mainred rounded-[50%] h-[42px] w-[42px] hidden lg:flex">
+                        <img src="Assets/Images/header/star.webp" alt="">
+                    </button>
+                    <a class="flex items-center justify-center font-extrabold">
+                        <span class="text-mainred text-sm uppercase mr-1.5 hidden xl:flex">корзина</span>
+                        <div class="relative md:border-[2px] border-mainred rounded-[50%] md:h-[42px] md:w-[42px] flex items-center lg:border-none">
+                            <img src="Assets/Images/header/cart.webp" alt="">
+                            <div class="border-[2px] border-mainred rounded-[50%] h-[23px] w-[23px] text-white absolute -top-2 -right-2 bg-mainred flex justify-center items-center">
+                                <p class="w-fit font-semibold">45</p>
+                            </div>
+                        </div>
+                    </a>       
+                    <div class="flex items-center flex-col xl:flex-row xl:gap-3 hidden" id="signin">
+                        <img src="Assets/Images/header/signin.webp" alt="">
+                        <p class="text-sm uppercase font-semibold">войти</p>
                     </div>
-                </a>            
+                </div>
             </div>
-            <div class="w-full bg-[#d5d5d5] h-px mt-[23px]"></div>
+            <div class="w-full bg-[#d5d5d5] h-px"></div>
         </div>
-        <div id="mobile__nav" class="bg-[#f0f0f0] opacity-0 absolute top-full left-0 h-fit w-full md:w-4/5 lg:w-full transform transition duration-300 ease-in-out z-30 -z-30 h-[555px] lg:h-auto overflow-y-auto shadow-2xl">
+        <div id="mobile__nav" class="bg-[#f0f0f0] opacity-0 fixed top-full left-0 h-fit w-full md:w-4/5 lg:w-full transform transition duration-300 ease-in-out z-30 -z-30 h-[555px] lg:h-auto overflow-y-auto shadow-2xl">
             <div class="w-full bg-mainred text-white lg:hidden">
                 <div class="container max-w-[1280px] mx-auto flex justify-between items-center uppercase font-extrabold py-3">
                     <div class="flex gap-[6px] items-center">
@@ -440,8 +447,6 @@
                 </div>
               </div>
             </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination product-slider-pagination"></div>
           
             <!-- If we need navigation buttons -->            
             <div class="swiper-button-prev product-slider-prev hidden md:flex group flex items-center justify-center pr-1">
@@ -766,7 +771,7 @@
     <div class="flex flex-col container max-w-[1280px] mx-auto mt-[49px] lg:mt-[69px]">
         <div class="flex justify-between items-center">
             <div class="flex flex-col h-fit w-fit text-[34px] uppercase relative items-center">
-                <p class="z-50 h-fit px-[11px] font-semibold">категории</p>
+                <p class="z-20 h-fit px-[11px] font-semibold">категории</p>
                 <div class="absolute bottom-2 h-[14px] w-full bg-[#ffdf4c]"></div>
             </div>
             <div class="flex items-center buttons">
@@ -959,7 +964,7 @@
     <div class="flex flex-col container max-w-[1280px] mx-auto mt-[49px] lg:mt-[69px]">
         <div class="flex justify-between items-center">
             <div class="flex flex-col h-fit w-fit text-[34px] uppercase relative items-center">
-                <p class="z-50 h-fit px-[11px] font-semibold">новинки</p>
+                <p class="z-20 h-fit px-[11px] font-semibold">новинки</p>
                 <div class="absolute bottom-2 h-[14px] w-full bg-[#ffdf4c]"></div>
             </div>
             <div class="flex items-center">
@@ -1265,7 +1270,7 @@
     <div class="flex flex-col container max-w-[1280px] mx-auto mt-[49px] lg:mt-[69px]">
         <div class="flex justify-between items-center">
             <div class="flex flex-col h-fit w-fit text-[34px] uppercase relative items-center">
-                <p class="z-50 h-fit px-[11px] font-semibold">хиты продаж</p>
+                <p class="z-20 h-fit px-[11px] font-semibold">хиты продаж</p>
                 <div class="absolute bottom-2 h-[14px] w-full bg-[#ffdf4c]"></div>
             </div>
             <div class="flex items-center">
@@ -1570,7 +1575,7 @@
 
     <div class="container max-w-[1280px] mx-auto flex flex-col lg:flex-row hidden md:flex justify-between md:mt-[50px] lg:mt-[71px]">
         <div class="flex flex-col w-full lg:h-fit lg:w-fit text-[34px] uppercase w-full lg:w-[378px] xl:w-[400px] relative items-center mr-[35px]">
-            <p class="z-50 h-fit px-[11px] font-semibold">интернет-магазин вкусных продуктов</p>
+            <p class="z-20 h-fit px-[11px] font-semibold">интернет-магазин вкусных продуктов</p>
             <div class="absolute bottom-2 h-[14px] w-full bg-[#ffdf4c]"></div>
         </div>
         <div class="flex flex-col w-full lg:w-[554px] xl:grow">

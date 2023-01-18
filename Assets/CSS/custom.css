@@ -10,6 +10,15 @@
 .categories-slider-prev::after, .categories-slider-next::after, .header-slider-prev::after, .header-slider-next::after, .promo-slider-prev::after,.promo-slider-next::after, .product-slider-prev::after, .product-slider-next::after {
     display:none;
 }
+.swiper-pagination-bullet {
+    background-color: white;
+    opacity: 100;
+    height: 17px;
+    width: 17px;
+}
+.swiper-pagination-bullet-active {
+    background-color: #a31d1d;
+}
 
 .categories-slider-next, .categories-slider-prev {
     position: static;

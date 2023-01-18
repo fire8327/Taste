@@ -56,11 +56,37 @@ close_search.addEventListener("click", () => {
 
 /* back to top */
 const toTopButton = document.getElementById("to-top-button");
+/* fixed header */
+const menu1 = document.getElementById("menu1");
+const menu2 = document.getElementById("menu2");
+const sublogo = document.getElementById("sublogo");
+const signin = document.getElementById("signin");
+
 window.onscroll = function () {
     if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
         toTopButton.classList.remove("hidden");
     } else {
         toTopButton.classList.add("hidden");
+    }
+
+    if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+      menu2.classList.add("fixed");
+      menu2.classList.add("shadow-2xl");
+      sublogo.classList.remove("hidden");
+      signin.classList.remove("hidden");
+    } else {
+      menu2.classList.remove("fixed");
+      menu2.classList.remove("shadow-2xl");
+      sublogo.classList.add("hidden");
+      signin.classList.add("hidden");
+    }
+
+    if (document.body.scrollTop > 68 || document.documentElement.scrollTop > 68) {
+      menu1.classList.add("fixed");
+      menu1.classList.add("shadow-2xl");
+    } else {
+      menu1.classList.remove("fixed");
+      menu1.classList.remove("shadow-2xl");
     }
 }
 

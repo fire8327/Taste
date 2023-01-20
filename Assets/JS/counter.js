@@ -5,7 +5,9 @@ $(document).ready(function() {
 		var step = $row.data('step');
 		var val = parseFloat($input.val());
 		if ($(this).hasClass('minus-kg')) {
+			if(val > 0.1) {
 			val -= step;
+			}
 		} else {
 			val += step;
 		}

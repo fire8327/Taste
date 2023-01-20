@@ -486,289 +486,263 @@
         </div>
         <div class="swiper stocks-slider w-full mt-[26px]">
             <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
+            <div class="swiper-wrapper h-full">
               <!-- Slides -->
-              <div class="swiper-slide flex flex-col items-center min-h-[553px] lg:min-h-[551px] xl:min-h-[478px] px-[18px] relative bg-white shadow-xl border-[1px] border-[#d5d5d5] hover:shadow-yellow-300 hover:delay-100 transition-all duration-500">
-                <div class="flex flex-col text-left justify-around">
-                    <img src="Assets/Images/product-slider/item1.png" alt="" class="min-h-[157px] md:min-h-[184px] lg:min-h-[182px] xl:min-h-[231px]">
-                    <div class="flex flex-col absolute top-[6px] md:top-[81px] lg:top-[56px] left-0 text-white font-semibold">
-                        <div class="flex items-center bg-mainred rounded-r-lg h-6 w-[54px] justify-center"><p>-30%</p></div>
-                        <div class="flex items-center bg-[#fb8c16] rounded-r-lg h-6 w-[54px] justify-center mt-[6px] uppercase"><p>new</p></div>
+              <div class="swiper-slide flex flex-col items-center relative bg-white shadow-xl border-[1px] border-[#d5d5d5] hover:shadow-[#e9e0b5] hover:delay-100 transition-all duration-500">
+                <div class="flex flex-col absolute top-[6px] md:top-[81px] lg:top-2 left-0 text-white font-semibold">
+                    <div class="flex items-center bg-mainred rounded-r-lg h-6 w-[54px] justify-center"><p>-30%</p></div>
+                    <div class="flex items-center bg-[#fb8c16] rounded-r-lg h-6 w-[54px] justify-center mt-[6px] uppercase"><p>new</p></div>
+                </div>
+                <div class="flex flex-col absolute right-[13px] top-4">
+                    <button class="flex items-center">
+                        <img src="Assets/Images/product-slider/heart.webp" alt="">
+                    </button>
+                    <button class="flex items-center mt-4">
+                        <img src="Assets/Images/product-slider/star.webp" alt="">
+                    </button>
+                    <button class="flex items-center mt-4">
+                        <img src="Assets/Images/product-slider/list.webp" alt="">
+                    </button>
+                </div>
+                <img src="Assets/Images/product-slider/item1.png" alt="" class="mt-5 px-9 md:h-36 xl:h-48">
+                <div class="flex flex-col px-4">
+                    <p class="text-sm text-[#5b5b5b] mt-1">Арт: <span>38472</span></p>
+                    <p class="text-base font-bold mt-1 h-[72px] xl:h-auto">Семга слабосоленая пласт «Поедим рыбки» (в/у 0.6-1 кг.)</p>
+                    <div class="flex items-center mt-1 gap-2">
+                        <div class="w-[7px] h-[7px] rounded-full bg-[#65ac00]"></div>
+                        <p class="text-[#65ac00] text-[15px]">Есть в наличии</p>
                     </div>
-                    <div class="flex flex-col absolute right-[13px] top-[66px]">
-                        <button class="flex items-center">
-                            <img src="Assets/Images/product-slider/heart.webp" alt="">
-                        </button>
-                        <button class="flex items-center mt-4">
-                            <img src="Assets/Images/product-slider/star.webp" alt="">
-                        </button>
-                        <button class="flex items-center mt-4">
-                            <img src="Assets/Images/product-slider/list.webp" alt="">
-                        </button>
-                    </div>
-                    <div class="flex flex-col justify-around">
-                        <p class="text-sm text-[#5b5b5b]">Арт: 38472</p>
-                        <p class="w-fit font-bold text-[16px] h-[96px] md:h-[72px]">Семга слабосоленая пласт <br class="hidden xl:block"> «Поедим рыбки» (в/у 0.6-1 кг.)</p>
-                        <div class="flex items-center">
-                            <div class="w-[7px] h-[7px] rounded-full bg-[#65ac00] mr-2"></div>
-                            <p class="text-[#65ac00] text-[15px] h-[45px] md:h-auto flex items-center">Есть в наличии</p>
-                        </div>
-                        <div class="flex flex-col justify-around">
-                            <div class="flex mt-[15px] min-h-[113px]">
-                                <div class="flex flex-col w-fit">
-                                    <p class="text-[15px] text-[#65ac00] w-fit"><span class="font-bold text-[20px]">~1500</span> р./кг</p>
-                                    <p class="text-sm text-[#9d9d9d] w-fit">Оптом от коробки</p>
-                                    <p class="text-sm text-[#9d9d9d] w-fit">≈ 20 кг</p>
-                                </div>
-                                <div class="w-px h-[49px] bg-[#d5d5d5] ml-4 mr-[23px]"></div>
-                                <div class="flex flex-col">
-                                    <p class="text-[15px]"><span class="font-bold text-[20px]">1 776</span> р/кг.</p>
-                                    <p class="text-[15px] text-[#9d9d9d]">В розницу</p>
-                                </div>
+                    <div class="opacity-100">
+                        <div class="flex mt-5">
+                            <div class="flex flex-col w-full">
+                                <p class="text-[15px] text-[#65ac00] w-fit"><span class="text-xl font-bold">1500</span> р./кг</p>
+                                <p class="text-sm text-[#5b5b5b] w-fit">Оптом от коробки</p>
+                                <p class="text-sm text-[#5b5b5b] w-fit">≈ 20 кг</p>
                             </div>
-                            <div class="flex items-center mt-[10px] mb-[14px]">
-                                <form class="w-[82px] mr-5 border-[1px] border-[#d5d5d5] flex h-[43px] counter-kg" data-step="0.1" data-min="0.1" data-max="999">
-                                    <input type="text" class="h-full w-[53px] pl-[10px] number-kg" value="0.6 кг">
-                                    <div class="flex flex-col h-full">
-                                        <button type="button" class="plus-kg h-1/2 flex items-center justify-center border-[1px] border-t-0 border-[#d5d5d5] w-[28px] group">
-                                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 0.242091L0.656064 7.25999L2.0597 8.68468L7.99997 2.83259L13.9402 8.68468L15.3439 7.25999L8.22021 0.242091L7.99997 0.465638L7.77973 0.242091Z"/>
-                                            </svg>                                                
-                                        </button>
-                                        <button type="button" class="minus-kg h-1/2 flex items-center justify-center border-[1px] border-y-0 border-[#d5d5d5] w-[28px] group">
-                                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 8.75786L0.656064 1.73971L2.0597 0.315009L7.99997 6.1673L13.9402 0.315009L15.3439 1.73971L8.22021 8.75786L7.99997 8.53431L7.77973 8.75786Z"/>
-                                            </svg>                                                                                              
-                                        </button>
-                                    </div>
-                                </form>
-                                <div class="flex flex-col hidden xl:flex">
-                                    <p class="text-sm text-[#9d9d9d]">Итого:</p>
-                                    <p class="text-[16px]"><span class="font-bold">1 776</span> р/кг.</p>
-                                </div>
-                                <button class="flex items-center justify-center rounded-full bg-mainred w-[42px] h-[42px] ml-[21px]">
-                                    <img src="Assets/Images/product-slider/cart.webp" alt="">
-                                </button>
-                            </div>
-                            <div class="flex flex-col xl:hidden mb-[14px]">
-                                <p class="text-sm text-[#9d9d9d]">Итого:</p>
-                                <p class="text-[16px]"><span class="font-bold">1 776</span> р/кг.</p>
+                            <div class="bg-[#d5d5d5] mx-2 xl:mx-[10px] h-12 w-px"></div>
+                            <div class="flex flex-col w-full">
+                                <p class="text-[15px]"><span class="text-xl font-bold">1776</span> р./кг</p>
+                                <p class="text-sm text-[#5b5b5b]">В розницу</p>
                             </div>
                         </div>
+                        <div class="mt-2 xl:mb-3 flex xl:gap-5 lg:justify-between xl:justify-start">
+                            <form class="w-[82px] border-[1px] border-[#d5d5d5] flex h-[43px] counter-kg" data-step="0.1" data-min="0.1" data-max="999">
+                                <input type="text" class="h-full w-[53px] px-[10px] text-xs font-semibold number-kg" value="0.6 кг">
+                                <div class="flex flex-col h-full w-4/12">
+                                    <button type="button" class="plus-kg h-1/2 flex items-center justify-center border-[1px] border-t-0 border-[#d5d5d5] w-[28px] group">
+                                        <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 0.242091L0.656064 7.25999L2.0597 8.68468L7.99997 2.83259L13.9402 8.68468L15.3439 7.25999L8.22021 0.242091L7.99997 0.465638L7.77973 0.242091Z"/>
+                                        </svg>                                                
+                                    </button>
+                                    <button type="button" class="minus-kg h-1/2 flex items-center justify-center border-[1px] border-y-0 border-[#d5d5d5] w-[28px] group">
+                                        <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 8.75786L0.656064 1.73971L2.0597 0.315009L7.99997 6.1673L13.9402 0.315009L15.3439 1.73971L8.22021 8.75786L7.99997 8.53431L7.77973 8.75786Z"/>
+                                        </svg>                                                                                              
+                                    </button>
+                                </div>
+                            </form>
+                            <div class="flex flex-col hidden xl:flex xl:20">
+                                <p class="text-sm text-[#5b5b5b]">Итого:</p>
+                                <p class="text-[15px]"><span class="text-base font-bold">1776</span> р./кг</p>
+                            </div>
+                            <button class="flex items-center justify-center rounded-full bg-mainred w-[42px] h-[42px]">
+                                <img src="Assets/Images/product-slider/cart.webp" alt="">
+                            </button>
+                        </div>
+                        <p class="text-sm text-[#5b5b5b] xl:hidden mb-3 mt-2">Итого: <span class="text-base font-bold text-black">1776</span><span class="text-black"> р./кг</span></p>
                     </div>
                 </div>
-              </div>      
-              <div class="swiper-slide flex flex-col items-center min-h-[553px] lg:min-h-[551px] xl:min-h-[478px] px-[18px] relative bg-white shadow-xl border-[1px] border-[#d5d5d5] hover:shadow-yellow-300 hover:delay-100 transition-all duration-500">
-                <div class="flex flex-col text-left justify-around">
-                    <img src="Assets/Images/product-slider/item2.png" alt="" class="min-h-[157px] md:min-h-[184px] lg:min-h-[182px] xl:min-h-[231px]">
-                    <div class="flex flex-col absolute top-[6px] md:top-[81px] lg:top-[56px] left-0 text-white font-semibold">
-                        <div class="flex items-center bg-mainred rounded-r-lg h-6 w-[54px] justify-center"><p>-30%</p></div>
-                        <div class="flex items-center bg-[#fb8c16] rounded-r-lg h-6 w-[54px] justify-center mt-[6px] uppercase"><p>new</p></div>
+              </div>
+              <div class="swiper-slide flex flex-col items-center relative bg-white shadow-xl border-[1px] border-[#d5d5d5] hover:shadow-[#e9e0b5] hover:delay-100 transition-all duration-500">
+                <div class="flex flex-col absolute top-[6px] md:top-[81px] lg:top-2 left-0 text-white font-semibold">
+                    <div class="flex items-center bg-mainred rounded-r-lg h-6 w-[54px] justify-center"><p>-30%</p></div>
+                    <div class="flex items-center bg-[#fb8c16] rounded-r-lg h-6 w-[54px] justify-center mt-[6px] uppercase"><p>new</p></div>
+                </div>
+                <div class="flex flex-col absolute right-[13px] top-4">
+                    <button class="flex items-center">
+                        <img src="Assets/Images/product-slider/heart.webp" alt="">
+                    </button>
+                    <button class="flex items-center mt-4">
+                        <img src="Assets/Images/product-slider/star.webp" alt="">
+                    </button>
+                </div>
+                <img src="Assets/Images/product-slider/item2.png" alt="" class="mt-5 px-9 md:h-36 xl:h-48">
+                <div class="flex flex-col px-4">
+                    <p class="text-sm text-[#5b5b5b] mt-1">Арт: <span>38472</span></p>
+                    <p class="text-base font-bold mt-1 h-[72px] xl:h-auto">Лапша "Бесбармачная" кемми" (уп. 350 гр.)</p>
+                    <div class="flex items-center mt-1 gap-2">
+                        <div class="w-[7px] h-[7px] rounded-full bg-[#65ac00]"></div>
+                        <p class="text-[#65ac00] text-[15px]">Есть в наличии</p>
                     </div>
-                    <div class="flex flex-col absolute right-[13px] top-[66px]">
-                        <button class="flex items-center">
-                            <img src="Assets/Images/product-slider/heart.webp" alt="">
-                        </button>
-                        <button class="flex items-center mt-4">
-                            <img src="Assets/Images/product-slider/star.webp" alt="">
-                        </button>
-                        <button class="flex items-center mt-4">
-                            <img src="Assets/Images/product-slider/list.webp" alt="">
-                        </button>
-                    </div>
-                    <div class="flex flex-col justify-around">
-                        <p class="text-sm text-[#5b5b5b]">Арт: 38472</p>
-                        <p class="w-fit font-bold text-[16px] h-[96px] md:h-[72px]">Лапша "Бесбармачная" <br class="hidden xl:block"> кемми" (уп. 350 гр.)</p>
-                        <div class="flex items-center">
-                            <div class="w-[7px] h-[7px] rounded-full bg-[#65ac00] mr-2"></div>
-                            <p class="text-[#65ac00] text-[15px] h-[45px] md:h-auto flex items-center">Есть в наличии</p>
-                        </div>
-                        <div class="flex flex-col justify-around">
-                            <div class="flex mt-[15px] min-h-[113px]">
-                                <div class="flex flex-col w-fit">
-                                    <p class="text-[15px] text-[#65ac00] w-fit"><span class="font-bold text-[20px]">~160</span> р./шт</p>
-                                    <p class="text-sm text-[#9d9d9d] w-fit">Оптом от коробки</p>
-                                    <p class="text-sm text-[#9d9d9d] w-fit">≈ 48 шт</p>
-                                </div>
-                                <div class="w-px h-[49px] bg-[#d5d5d5] ml-4 mr-[23px]"></div>
-                                <div class="flex flex-col">
-                                    <p class="text-[15px]"><span class="font-bold text-[20px]">180</span> р/шт.</p>
-                                    <p class="text-[15px] text-[#9d9d9d]">В розницу</p>
-                                </div>
+                    <div class="opacity-100">
+                        <div class="flex mt-5">
+                            <div class="flex flex-col w-full">
+                                <p class="text-[15px] text-[#65ac00] w-fit"><span class="text-xl font-bold">160</span> р./шт</p>
+                                <p class="text-sm text-[#5b5b5b] w-fit">Оптом от коробки</p>
+                                <p class="text-sm text-[#5b5b5b] w-fit">≈ 48 шт</p>
                             </div>
-                            <div class="flex items-center mt-[10px] mb-[14px]">
-                                <form class="w-[82px] mr-5 border-[1px] border-[#d5d5d5] flex h-[43px] counter-pcs" data-step="1" data-min="1" data-max="999">
-                                    <input type="text" class="h-full w-[53px] pl-[10px] number-pcs" value="1 шт">
-                                    <div class="flex flex-col h-full">
-                                        <button type="button" class="plus-pcs h-1/2 flex items-center justify-center border-[1px] border-t-0 border-[#d5d5d5] w-[28px] group">
-                                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 0.242091L0.656064 7.25999L2.0597 8.68468L7.99997 2.83259L13.9402 8.68468L15.3439 7.25999L8.22021 0.242091L7.99997 0.465638L7.77973 0.242091Z"/>
-                                            </svg>                                                
-                                        </button>
-                                        <button type="button" class="minus-pcs h-1/2 flex items-center justify-center border-[1px] border-y-0 border-[#d5d5d5] w-[28px] group">
-                                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 8.75786L0.656064 1.73971L2.0597 0.315009L7.99997 6.1673L13.9402 0.315009L15.3439 1.73971L8.22021 8.75786L7.99997 8.53431L7.77973 8.75786Z"/>
-                                            </svg>                                                                                              
-                                        </button>
-                                    </div>
-                                </form>
-                                <div class="flex flex-col hidden xl:flex">
-                                    <p class="text-sm text-[#9d9d9d]">Итого:</p>
-                                    <p class="text-[16px]"><span class="font-bold">180</span> р/кг.</p>
-                                </div>
-                                <button class="flex items-center justify-center rounded-full bg-mainred w-[42px] h-[42px] ml-[21px]">
-                                    <img src="Assets/Images/product-slider/cart.webp" alt="">
-                                </button>
-                            </div>
-                            <div class="flex flex-col xl:hidden mb-[14px]">
-                                <p class="text-sm text-[#9d9d9d]">Итого:</p>
-                                <p class="text-[16px]"><span class="font-bold">180</span> р/кг.</p>
+                            <div class="bg-[#d5d5d5] mx-2 xl:mx-[10px] h-12 w-px"></div>
+                            <div class="flex flex-col w-full">
+                                <p class="text-[15px]"><span class="text-xl font-bold">180</span> р./шт</p>
+                                <p class="text-sm text-[#5b5b5b]">В розницу</p>
                             </div>
                         </div>
+                        <div class="mt-2 xl:mb-3 flex xl:gap-5 lg:justify-between xl:justify-start">
+                            <form class="w-[82px] border-[1px] border-[#d5d5d5] flex h-[43px] counter-pcs" data-step="1" data-min="1" data-max="999">
+                                <input type="text" class="h-full w-[53px] px-[10px] text-xs font-semibold number-pcs" value="1 шт">
+                                <div class="flex flex-col h-full">
+                                    <button type="button" class="plus-pcs h-1/2 flex items-center justify-center border-[1px] border-t-0 border-[#d5d5d5] w-[28px] group">
+                                        <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 0.242091L0.656064 7.25999L2.0597 8.68468L7.99997 2.83259L13.9402 8.68468L15.3439 7.25999L8.22021 0.242091L7.99997 0.465638L7.77973 0.242091Z"/>
+                                        </svg>                                                
+                                    </button>
+                                    <button type="button" class="minus-pcs h-1/2 flex items-center justify-center border-[1px] border-y-0 border-[#d5d5d5] w-[28px] group">
+                                        <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 8.75786L0.656064 1.73971L2.0597 0.315009L7.99997 6.1673L13.9402 0.315009L15.3439 1.73971L8.22021 8.75786L7.99997 8.53431L7.77973 8.75786Z"/>
+                                        </svg>                                                                                              
+                                    </button>
+                                </div>
+                            </form>
+                            <div class="flex flex-col hidden xl:flex xl:20">
+                                <p class="text-sm text-[#5b5b5b]">Итого:</p>
+                                <p class="text-[15px]"><span class="text-base font-bold">180</span> р./шт</p>
+                            </div>
+                            <button class="flex items-center justify-center rounded-full bg-mainred w-[42px] h-[42px]">
+                                <img src="Assets/Images/product-slider/cart.webp" alt="">
+                            </button>
+                        </div>
+                        <p class="text-sm text-[#5b5b5b] xl:hidden mb-3 mt-2">Итого: <span class="text-base font-bold text-black">180</span><span class="text-black"> р./шт</span></p>
                     </div>
                 </div>
-              </div>  
-              <div class="swiper-slide flex flex-col items-center min-h-[553px] lg:min-h-[551px] xl:min-h-[478px] px-[18px] relative bg-white shadow-xl border-[1px] border-[#d5d5d5] hover:shadow-yellow-300 hover:delay-100 transition-all duration-500">
-                <div class="flex flex-col text-left justify-around">
-                    <img src="Assets/Images/product-slider/item2.png" alt="" class="min-h-[157px] md:min-h-[184px] lg:min-h-[182px] xl:min-h-[231px]">
-                    <div class="flex flex-col absolute top-[6px] md:top-[81px] lg:top-[56px] left-0 text-white font-semibold">
-                        <div class="flex items-center bg-mainred rounded-r-lg h-6 w-[54px] justify-center"><p>-30%</p></div>
+              </div>
+              <div class="swiper-slide flex flex-col items-center relative bg-white shadow-xl border-[1px] border-[#d5d5d5] hover:shadow-[#e9e0b5] hover:delay-100 transition-all duration-500">
+                <div class="flex flex-col absolute top-[6px] md:top-[81px] lg:top-2 left-0 text-white font-semibold">
+                    <div class="flex items-center bg-mainred rounded-r-lg h-6 w-[54px] justify-center"><p>-30%</p></div>
+                </div>
+                <div class="flex flex-col absolute right-[13px] top-4">
+                    <button class="flex items-center">
+                        <img src="Assets/Images/product-slider/heart.webp" alt="">
+                    </button>
+                    <button class="flex items-center mt-4">
+                        <img src="Assets/Images/product-slider/star.webp" alt="">
+                    </button>
+                </div>
+                <img src="Assets/Images/product-slider/item2.png" alt="" class="mt-5 px-9 md:h-36 xl:h-48">
+                <div class="flex flex-col px-4">
+                    <p class="text-sm text-[#5b5b5b] mt-1">Арт: <span>38472</span></p>
+                    <p class="text-base font-bold mt-1 h-[72px] xl:h-auto">Лапша "Бесбармачная" кемми" (уп. 350 гр.)</p>
+                    <div class="flex items-center mt-1 gap-2">
+                        <div class="w-[7px] h-[7px] rounded-full bg-[#fb8c16]"></div>
+                        <p class="text-[#fb8c16] text-[15px]">Ожидается поступление</p>
                     </div>
-                    <div class="flex flex-col absolute right-[13px] top-[66px]">
-                        <button class="flex items-center">
-                            <img src="Assets/Images/product-slider/heart.webp" alt="">
-                        </button>
-                        <button class="flex items-center mt-4">
-                            <img src="Assets/Images/product-slider/star.webp" alt="">
-                        </button>
-                        <button class="flex items-center mt-4">
-                            <img src="Assets/Images/product-slider/list.webp" alt="">
-                        </button>
-                    </div>
-                    <div class="flex flex-col justify-around">
-                        <p class="text-sm text-[#5b5b5b]">Арт: 38472</p>
-                        <p class="w-fit font-bold text-[16px] h-[96px] md:h-[72px]">Лапша "Бесбармачная" <br class="hidden xl:block"> кемми" (уп. 350 гр.)</p>
-                        <div class="flex items-center">
-                            <div class="w-[7px] h-[7px] rounded-full bg-[#fb8c16] mr-2"></div>
-                            <p class="text-[#fb8c16] text-[15px] h-[45px] md:h-auto flex items-center">Ожидается поступление</p>
-                        </div>
-                        <div class="flex flex-col justify-around opacity-40">
-                            <div class="flex mt-[15px] min-h-[113px]">
-                                <div class="flex flex-col w-fit">
-                                    <p class="text-[15px] text-[#65ac00] w-fit"><span class="font-bold text-[20px]">~160</span> р./шт</p>
-                                    <p class="text-sm text-[#9d9d9d] w-fit">Оптом от коробки</p>
-                                    <p class="text-sm text-[#9d9d9d] w-fit">≈ 48 шт</p>
-                                </div>
-                                <div class="w-px h-[49px] bg-[#d5d5d5] ml-4 mr-[23px]"></div>
-                                <div class="flex flex-col">
-                                    <p class="text-[15px]"><span class="font-bold text-[20px]">180</span> р/шт.</p>
-                                    <p class="text-[15px] text-[#9d9d9d]">В розницу</p>
-                                </div>
+                    <div class="opacity-30">
+                        <div class="flex mt-5">
+                            <div class="flex flex-col w-full">
+                                <p class="text-[15px] text-[#65ac00] w-fit"><span class="text-xl font-bold">160</span> р./шт</p>
+                                <p class="text-sm text-[#5b5b5b] w-fit">Оптом от коробки</p>
+                                <p class="text-sm text-[#5b5b5b] w-fit">≈ 48 шт</p>
                             </div>
-                            <div class="flex items-center mt-[10px] mb-[14px]">
-                                <form class="w-[82px] mr-5 border-[1px] border-[#d5d5d5] flex h-[43px] counter-pcs" data-step="1" data-min="1" data-max="999">
-                                    <input type="text" class="h-full w-[53px] pl-[10px] number-pcs" value="1 шт">
-                                    <div class="flex flex-col h-full">
-                                        <button disabled type="buttplus o-pcsn" class="h-1/2 flex items-center justify-center border-[1px] border-t-0 border-[#d5d5d5] w-[28px] group">
-                                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 0.242091L0.656064 7.25999L2.0597 8.68468L7.99997 2.83259L13.9402 8.68468L15.3439 7.25999L8.22021 0.242091L7.99997 0.465638L7.77973 0.242091Z"/>
-                                            </svg>                                                
-                                        </button>
-                                        <button disabled type="buttonminus-pcs " class="h-1/2 flex items-center justify-center border-[1px] border-y-0 border-[#d5d5d5] w-[28px] group">
-                                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 8.75786L0.656064 1.73971L2.0597 0.315009L7.99997 6.1673L13.9402 0.315009L15.3439 1.73971L8.22021 8.75786L7.99997 8.53431L7.77973 8.75786Z"/>
-                                            </svg>                                                                                              
-                                        </button>
-                                    </div>
-                                </form>
-                                <div class="flex flex-col hidden xl:flex">
-                                    <p class="text-sm text-[#9d9d9d]">Итого:</p>
-                                    <p class="text-[16px]"><span class="font-bold">180</span> р/кг.</p>
-                                </div>
-                                <button class="flex items-center justify-center rounded-full bg-mainred w-[42px] h-[42px] ml-[21px]" disabled>
-                                    <img src="Assets/Images/product-slider/cart.webp" alt="">
-                                </button>
-                            </div>
-                            <div class="flex flex-col xl:hidden mb-[14px]">
-                                <p class="text-sm text-[#9d9d9d]">Итого:</p>
-                                <p class="text-[16px]"><span class="font-bold">180</span> р/кг.</p>
+                            <div class="bg-[#d5d5d5] mx-2 xl:mx-[10px] h-12 w-px"></div>
+                            <div class="flex flex-col w-full">
+                                <p class="text-[15px]"><span class="text-xl font-bold">180</span> р./шт</p>
+                                <p class="text-sm text-[#5b5b5b]">В розницу</p>
                             </div>
                         </div>
+                        <div class="mt-2 xl:mb-3 flex xl:gap-5 lg:justify-between xl:justify-start">
+                            <form class="w-[82px] border-[1px] border-[#d5d5d5] flex h-[43px] counter-pcs" data-step="1" data-min="1" data-max="999">
+                                <input type="text" class="h-full w-[53px] px-[10px] text-xs font-semibold number-pcs" value="1 шт">
+                                <div class="flex flex-col h-full">
+                                    <button disabled type="button" class="plus-pcs h-1/2 flex items-center justify-center border-[1px] border-t-0 border-[#d5d5d5] w-[28px] group">
+                                        <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 0.242091L0.656064 7.25999L2.0597 8.68468L7.99997 2.83259L13.9402 8.68468L15.3439 7.25999L8.22021 0.242091L7.99997 0.465638L7.77973 0.242091Z"/>
+                                        </svg>                                                
+                                    </button>
+                                    <button disabled type="button" class="minus-pcs h-1/2 flex items-center justify-center border-[1px] border-y-0 border-[#d5d5d5] w-[28px] group">
+                                        <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 8.75786L0.656064 1.73971L2.0597 0.315009L7.99997 6.1673L13.9402 0.315009L15.3439 1.73971L8.22021 8.75786L7.99997 8.53431L7.77973 8.75786Z"/>
+                                        </svg>                                                                                              
+                                    </button>
+                                </div>
+                            </form>
+                            <div class="flex flex-col hidden xl:flex xl:20">
+                                <p class="text-sm text-[#5b5b5b]">Итого:</p>
+                                <p class="text-[15px]"><span class="text-base font-bold">180</span> р./шт</p>
+                            </div>
+                            <button disabled class="flex items-center justify-center rounded-full bg-mainred w-[42px] h-[42px]">
+                                <img src="Assets/Images/product-slider/cart.webp" alt="">
+                            </button>
+                        </div>
+                        <p class="text-sm text-[#5b5b5b] xl:hidden mb-3 mt-2">Итого: <span class="text-base font-bold text-black">180</span><span class="text-black"> р./шт</span></p>
                     </div>
                 </div>
-              </div>  
-              <div class="swiper-slide flex flex-col items-center min-h-[553px] lg:min-h-[551px] xl:min-h-[478px] px-[18px] relative bg-white shadow-xl border-[1px] border-[#d5d5d5] hover:shadow-yellow-300 hover:delay-100 transition-all duration-500">
-                <div class="flex flex-col text-left justify-around">
-                    <img src="Assets/Images/product-slider/item1.png" alt="" class="min-h-[157px] md:min-h-[184px] lg:min-h-[182px] xl:min-h-[231px]">
-                    <div class="flex flex-col absolute top-[6px] md:top-[81px] lg:top-[56px] left-0 text-white font-semibold">
-                        <div class="flex items-center bg-mainred rounded-r-lg h-6 w-[54px] justify-center"><p>-30%</p></div>
-                        <div class="flex items-center bg-[#fb8c16] rounded-r-lg h-6 w-[54px] justify-center mt-[6px] uppercase"><p>new</p></div>
+              </div>
+              <div class="swiper-slide flex flex-col items-center relative bg-white shadow-xl border-[1px] border-[#d5d5d5] hover:shadow-[#e9e0b5] hover:delay-100 transition-all duration-500">
+                <div class="flex flex-col absolute top-[6px] md:top-[81px] lg:top-2 left-0 text-white font-semibold">
+                    <div class="flex items-center bg-mainred rounded-r-lg h-6 w-[54px] justify-center"><p>-30%</p></div>
+                    <div class="flex items-center bg-[#fb8c16] rounded-r-lg h-6 w-[54px] justify-center mt-[6px] uppercase"><p>new</p></div>
+                </div>
+                <div class="flex flex-col absolute right-[13px] top-4">
+                    <button class="flex items-center">
+                        <img src="Assets/Images/product-slider/heart.webp" alt="">
+                    </button>
+                    <button class="flex items-center mt-4">
+                        <img src="Assets/Images/product-slider/star.webp" alt="">
+                    </button>
+                    <button class="flex items-center mt-4">
+                        <img src="Assets/Images/product-slider/list.webp" alt="">
+                    </button>
+                </div>
+                <img src="Assets/Images/product-slider/item1.png" alt="" class="mt-5 px-9 md:h-36 xl:h-48">
+                <div class="flex flex-col px-4">
+                    <p class="text-sm text-[#5b5b5b] mt-1">Арт: <span>38472</span></p>
+                    <p class="text-base font-bold mt-1 h-[72px] xl:h-auto">Семга слабосоленая пласт «Поедим рыбки» (в/у 0.6-1 кг.)</p>
+                    <div class="flex items-center mt-1 gap-2">
+                        <div class="w-[7px] h-[7px] rounded-full bg-[#65ac00]"></div>
+                        <p class="text-[#65ac00] text-[15px]">Есть в наличии</p>
                     </div>
-                    <div class="flex flex-col absolute right-[13px] top-[66px]">
-                        <button class="flex items-center">
-                            <img src="Assets/Images/product-slider/heart.webp" alt="">
-                        </button>
-                        <button class="flex items-center mt-4">
-                            <img src="Assets/Images/product-slider/star.webp" alt="">
-                        </button>
-                        <button class="flex items-center mt-4">
-                            <img src="Assets/Images/product-slider/list.webp" alt="">
-                        </button>
-                    </div>
-                    <div class="flex flex-col justify-around">
-                        <p class="text-sm text-[#5b5b5b]">Арт: 38472</p>
-                        <p class="w-fit font-bold text-[16px] h-[96px] md:h-[72px]">Семга слабосоленая пласт <br class="hidden xl:block"> «Поедим рыбки» (в/у 0.6-1 кг.)</p>
-                        <div class="flex items-center">
-                            <div class="w-[7px] h-[7px] rounded-full bg-[#65ac00] mr-2"></div>
-                            <p class="text-[#65ac00] text-[15px] h-[45px] md:h-auto flex items-center">Есть в наличии</p>
-                        </div>
-                        <div class="flex flex-col justify-around">
-                            <div class="flex mt-[15px] min-h-[113px]">
-                                <div class="flex flex-col w-fit">
-                                    <p class="text-[15px] text-[#65ac00] w-fit"><span class="font-bold text-[20px]">~1500</span> р./кг</p>
-                                    <p class="text-sm text-[#9d9d9d] w-fit">Оптом от коробки</p>
-                                    <p class="text-sm text-[#9d9d9d] w-fit">≈ 20 кг</p>
-                                </div>
-                                <div class="w-px h-[49px] bg-[#d5d5d5] ml-4 mr-[23px]"></div>
-                                <div class="flex flex-col">
-                                    <p class="text-[15px]"><span class="font-bold text-[20px]">1 776</span> р/кг.</p>
-                                    <p class="text-[15px] text-[#9d9d9d]">В розницу</p>
-                                </div>
+                    <div class="opacity-100">
+                        <div class="flex mt-5">
+                            <div class="flex flex-col w-full">
+                                <p class="text-[15px] text-[#65ac00] w-fit"><span class="text-xl font-bold">1500</span> р./кг</p>
+                                <p class="text-sm text-[#5b5b5b] w-fit">Оптом от коробки</p>
+                                <p class="text-sm text-[#5b5b5b] w-fit">≈ 20 кг</p>
                             </div>
-                            <div class="flex items-center mt-[10px] mb-[14px]">
-                                <form class="w-[82px] mr-5 border-[1px] border-[#d5d5d5] flex h-[43px] counter-kg" data-step="0.1" data-min="0.1" data-max="999">
-                                    <input type="text" class="h-full w-[53px] pl-[10px] number-kg" value="0.6 кг">
-                                    <div class="flex flex-col h-full">
-                                        <button type="button" class="plus-kg h-1/2 flex items-center justify-center border-[1px] border-t-0 border-[#d5d5d5] w-[28px] group">
-                                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 0.242091L0.656064 7.25999L2.0597 8.68468L7.99997 2.83259L13.9402 8.68468L15.3439 7.25999L8.22021 0.242091L7.99997 0.465638L7.77973 0.242091Z"/>
-                                            </svg>                                                
-                                        </button>
-                                        <button type="button" class="minus-kg h-1/2 flex items-center justify-center border-[1px] border-y-0 border-[#d5d5d5] w-[28px] group">
-                                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 8.75786L0.656064 1.73971L2.0597 0.315009L7.99997 6.1673L13.9402 0.315009L15.3439 1.73971L8.22021 8.75786L7.99997 8.53431L7.77973 8.75786Z"/>
-                                            </svg>                                                                                              
-                                        </button>
-                                    </div>
-                                </form>
-                                <div class="flex flex-col hidden xl:flex">
-                                    <p class="text-sm text-[#9d9d9d]">Итого:</p>
-                                    <p class="text-[16px]"><span class="font-bold">1 776</span> р/кг.</p>
-                                </div>
-                                <button class="flex items-center justify-center rounded-full bg-mainred w-[42px] h-[42px] ml-[21px]">
-                                    <img src="Assets/Images/product-slider/cart.webp" alt="">
-                                </button>
-                            </div>
-                            <div class="flex flex-col xl:hidden mb-[14px]">
-                                <p class="text-sm text-[#9d9d9d]">Итого:</p>
-                                <p class="text-[16px]"><span class="font-bold">1 776</span> р/кг.</p>
+                            <div class="bg-[#d5d5d5] mx-2 xl:mx-[10px] h-12 w-px"></div>
+                            <div class="flex flex-col w-full">
+                                <p class="text-[15px]"><span class="text-xl font-bold">1776</span> р./кг</p>
+                                <p class="text-sm text-[#5b5b5b]">В розницу</p>
                             </div>
                         </div>
+                        <div class="mt-2 xl:mb-3 flex xl:gap-5 lg:justify-between xl:justify-start">
+                            <form class="w-[82px] border-[1px] border-[#d5d5d5] flex h-[43px] counter-kg" data-step="0.1" data-min="0.1" data-max="999">
+                                <input type="text" class="h-full w-[53px] px-[10px] text-xs font-semibold number-kg" value="0.6 кг">
+                                <div class="flex flex-col h-full w-4/12">
+                                    <button type="button" class="plus-kg h-1/2 flex items-center justify-center border-[1px] border-t-0 border-[#d5d5d5] w-[28px] group">
+                                        <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 0.242091L0.656064 7.25999L2.0597 8.68468L7.99997 2.83259L13.9402 8.68468L15.3439 7.25999L8.22021 0.242091L7.99997 0.465638L7.77973 0.242091Z"/>
+                                        </svg>                                                
+                                    </button>
+                                    <button type="button" class="minus-kg h-1/2 flex items-center justify-center border-[1px] border-y-0 border-[#d5d5d5] w-[28px] group">
+                                        <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 8.75786L0.656064 1.73971L2.0597 0.315009L7.99997 6.1673L13.9402 0.315009L15.3439 1.73971L8.22021 8.75786L7.99997 8.53431L7.77973 8.75786Z"/>
+                                        </svg>                                                                                              
+                                    </button>
+                                </div>
+                            </form>
+                            <div class="flex flex-col hidden xl:flex xl:20">
+                                <p class="text-sm text-[#5b5b5b]">Итого:</p>
+                                <p class="text-[15px]"><span class="text-base font-bold">1776</span> р./кг</p>
+                            </div>
+                            <button class="flex items-center justify-center rounded-full bg-mainred w-[42px] h-[42px]">
+                                <img src="Assets/Images/product-slider/cart.webp" alt="">
+                            </button>
+                        </div>
+                        <p class="text-sm text-[#5b5b5b] xl:hidden mb-3 mt-2">Итого: <span class="text-base font-bold text-black">1776</span><span class="text-black"> р./кг</span></p>
                     </div>
                 </div>
               </div>
             </div>
-          </div>
+        </div>
     </div>
 
     <div class="flex flex-col container max-w-[1280px] mx-auto mt-[49px] lg:mt-[69px]">
@@ -985,288 +959,262 @@
         </div>
         <div class="swiper news-slider w-full mt-[26px]">
             <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-              <!-- Slides -->
-              <div class="swiper-slide flex flex-col items-center min-h-[553px] lg:min-h-[551px] xl:min-h-[478px] px-[18px] relative bg-white shadow-xl border-[1px] border-[#d5d5d5] hover:shadow-yellow-300 hover:delay-100 transition-all duration-500">
-                <div class="flex flex-col text-left justify-around">
-                    <img src="Assets/Images/product-slider/item1.png" alt="" class="min-h-[157px] md:min-h-[184px] lg:min-h-[182px] xl:min-h-[231px]">
-                    <div class="flex flex-col absolute top-[6px] md:top-[81px] lg:top-[56px] left-0 text-white font-semibold">
-                        <div class="flex items-center bg-mainred rounded-r-lg h-6 w-[54px] justify-center"><p>-30%</p></div>
-                        <div class="flex items-center bg-[#fb8c16] rounded-r-lg h-6 w-[54px] justify-center mt-[6px] uppercase"><p>new</p></div>
-                    </div>
-                    <div class="flex flex-col absolute right-[13px] top-[66px]">
-                        <button class="flex items-center">
-                            <img src="Assets/Images/product-slider/heart.webp" alt="">
-                        </button>
-                        <button class="flex items-center mt-4">
-                            <img src="Assets/Images/product-slider/star.webp" alt="">
-                        </button>
-                        <button class="flex items-center mt-4">
-                            <img src="Assets/Images/product-slider/list.webp" alt="">
-                        </button>
-                    </div>
-                    <div class="flex flex-col justify-around">
-                        <p class="text-sm text-[#5b5b5b]">Арт: 38472</p>
-                        <p class="w-fit font-bold text-[16px] h-[96px] md:h-[72px]">Семга слабосоленая пласт <br class="hidden xl:block"> «Поедим рыбки» (в/у 0.6-1 кг.)</p>
-                        <div class="flex items-center">
-                            <div class="w-[7px] h-[7px] rounded-full bg-[#65ac00] mr-2"></div>
-                            <p class="text-[#65ac00] text-[15px] h-[45px] md:h-auto flex items-center">Есть в наличии</p>
-                        </div>
-                        <div class="flex flex-col justify-around">
-                            <div class="flex mt-[15px] min-h-[113px]">
-                                <div class="flex flex-col w-fit">
-                                    <p class="text-[15px] text-[#65ac00] w-fit"><span class="font-bold text-[20px]">~1500</span> р./кг</p>
-                                    <p class="text-sm text-[#9d9d9d] w-fit">Оптом от коробки</p>
-                                    <p class="text-sm text-[#9d9d9d] w-fit">≈ 20 кг</p>
-                                </div>
-                                <div class="w-px h-[49px] bg-[#d5d5d5] ml-4 mr-[23px]"></div>
-                                <div class="flex flex-col">
-                                    <p class="text-[15px]"><span class="font-bold text-[20px]">1 776</span> р/кг.</p>
-                                    <p class="text-[15px] text-[#9d9d9d]">В розницу</p>
-                                </div>
-                            </div>
-                            <div class="flex items-center mt-[10px] mb-[14px]">
-                                <form class="w-[82px] mr-5 border-[1px] border-[#d5d5d5] flex h-[43px] counter-kg" data-step="0.1" data-min="0.1" data-max="999">
-                                    <input type="text" class="h-full w-[53px] pl-[10px] number-kg" value="0.6 кг">
-                                    <div class="flex flex-col h-full">
-                                        <button type="button" class="plus-kg h-1/2 flex items-center justify-center border-[1px] border-t-0 border-[#d5d5d5] w-[28px] group">
-                                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 0.242091L0.656064 7.25999L2.0597 8.68468L7.99997 2.83259L13.9402 8.68468L15.3439 7.25999L8.22021 0.242091L7.99997 0.465638L7.77973 0.242091Z"/>
-                                            </svg>                                                
-                                        </button>
-                                        <button type="button" class="minus-kg h-1/2 flex items-center justify-center border-[1px] border-y-0 border-[#d5d5d5] w-[28px] group">
-                                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 8.75786L0.656064 1.73971L2.0597 0.315009L7.99997 6.1673L13.9402 0.315009L15.3439 1.73971L8.22021 8.75786L7.99997 8.53431L7.77973 8.75786Z"/>
-                                            </svg>                                                                                              
-                                        </button>
-                                    </div>
-                                </form>
-                                <div class="flex flex-col hidden xl:flex">
-                                    <p class="text-sm text-[#9d9d9d]">Итого:</p>
-                                    <p class="text-[16px]"><span class="font-bold">1 776</span> р/кг.</p>
-                                </div>
-                                <button class="flex items-center justify-center rounded-full bg-mainred w-[42px] h-[42px] ml-[21px]">
-                                    <img src="Assets/Images/product-slider/cart.webp" alt="">
-                                </button>
-                            </div>
-                            <div class="flex flex-col xl:hidden mb-[14px]">
-                                <p class="text-sm text-[#9d9d9d]">Итого:</p>
-                                <p class="text-[16px]"><span class="font-bold">1 776</span> р/кг.</p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="swiper-wrapper h-full">
+                <!-- Slides -->
+                <div class="swiper-slide flex flex-col items-center relative bg-white shadow-xl border-[1px] border-[#d5d5d5] hover:shadow-[#e9e0b5] hover:delay-100 transition-all duration-500">
+                  <div class="flex flex-col absolute top-[6px] md:top-[81px] lg:top-2 left-0 text-white font-semibold">
+                      <div class="flex items-center bg-mainred rounded-r-lg h-6 w-[54px] justify-center"><p>-30%</p></div>
+                      <div class="flex items-center bg-[#fb8c16] rounded-r-lg h-6 w-[54px] justify-center mt-[6px] uppercase"><p>new</p></div>
+                  </div>
+                  <div class="flex flex-col absolute right-[13px] top-4">
+                      <button class="flex items-center">
+                          <img src="Assets/Images/product-slider/heart.webp" alt="">
+                      </button>
+                      <button class="flex items-center mt-4">
+                          <img src="Assets/Images/product-slider/star.webp" alt="">
+                      </button>
+                      <button class="flex items-center mt-4">
+                          <img src="Assets/Images/product-slider/list.webp" alt="">
+                      </button>
+                  </div>
+                  <img src="Assets/Images/product-slider/item1.png" alt="" class="mt-5 px-9 md:h-36 xl:h-48">
+                  <div class="flex flex-col px-4">
+                      <p class="text-sm text-[#5b5b5b] mt-1">Арт: <span>38472</span></p>
+                      <p class="text-base font-bold mt-1 h-[72px] xl:h-auto">Семга слабосоленая пласт «Поедим рыбки» (в/у 0.6-1 кг.)</p>
+                      <div class="flex items-center mt-1 gap-2">
+                          <div class="w-[7px] h-[7px] rounded-full bg-[#65ac00]"></div>
+                          <p class="text-[#65ac00] text-[15px]">Есть в наличии</p>
+                      </div>
+                      <div class="opacity-100">
+                          <div class="flex mt-5">
+                              <div class="flex flex-col w-full">
+                                  <p class="text-[15px] text-[#65ac00] w-fit"><span class="text-xl font-bold">1500</span> р./кг</p>
+                                  <p class="text-sm text-[#5b5b5b] w-fit">Оптом от коробки</p>
+                                  <p class="text-sm text-[#5b5b5b] w-fit">≈ 20 кг</p>
+                              </div>
+                              <div class="bg-[#d5d5d5] mx-2 xl:mx-[10px] h-12 w-px"></div>
+                              <div class="flex flex-col w-full">
+                                  <p class="text-[15px]"><span class="text-xl font-bold">1776</span> р./кг</p>
+                                  <p class="text-sm text-[#5b5b5b]">В розницу</p>
+                              </div>
+                          </div>
+                          <div class="mt-2 xl:mb-3 flex xl:gap-5 lg:justify-between xl:justify-start">
+                              <form class="w-[82px] border-[1px] border-[#d5d5d5] flex h-[43px] counter-kg" data-step="0.1" data-min="0.1" data-max="999">
+                                  <input type="text" class="h-full w-[53px] px-[10px] text-xs font-semibold number-kg" value="0.6 кг">
+                                  <div class="flex flex-col h-full w-4/12">
+                                      <button type="button" class="plus-kg h-1/2 flex items-center justify-center border-[1px] border-t-0 border-[#d5d5d5] w-[28px] group">
+                                          <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
+                                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 0.242091L0.656064 7.25999L2.0597 8.68468L7.99997 2.83259L13.9402 8.68468L15.3439 7.25999L8.22021 0.242091L7.99997 0.465638L7.77973 0.242091Z"/>
+                                          </svg>                                                
+                                      </button>
+                                      <button type="button" class="minus-kg h-1/2 flex items-center justify-center border-[1px] border-y-0 border-[#d5d5d5] w-[28px] group">
+                                          <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
+                                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 8.75786L0.656064 1.73971L2.0597 0.315009L7.99997 6.1673L13.9402 0.315009L15.3439 1.73971L8.22021 8.75786L7.99997 8.53431L7.77973 8.75786Z"/>
+                                          </svg>                                                                                              
+                                      </button>
+                                  </div>
+                              </form>
+                              <div class="flex flex-col hidden xl:flex xl:20">
+                                  <p class="text-sm text-[#5b5b5b]">Итого:</p>
+                                  <p class="text-[15px]"><span class="text-base font-bold">1776</span> р./кг</p>
+                              </div>
+                              <button class="flex items-center justify-center rounded-full bg-mainred w-[42px] h-[42px]">
+                                  <img src="Assets/Images/product-slider/cart.webp" alt="">
+                              </button>
+                          </div>
+                          <p class="text-sm text-[#5b5b5b] xl:hidden mb-3 mt-2">Итого: <span class="text-base font-bold text-black">1776</span><span class="text-black"> р./кг</span></p>
+                      </div>
+                  </div>
                 </div>
-              </div>      
-              <div class="swiper-slide flex flex-col items-center min-h-[553px] lg:min-h-[551px] xl:min-h-[478px] px-[18px] relative bg-white shadow-xl border-[1px] border-[#d5d5d5] hover:shadow-yellow-300 hover:delay-100 transition-all duration-500">
-                <div class="flex flex-col text-left justify-around">
-                    <img src="Assets/Images/product-slider/item2.png" alt="" class="min-h-[157px] md:min-h-[184px] lg:min-h-[182px] xl:min-h-[231px]">
-                    <div class="flex flex-col absolute top-[6px] md:top-[81px] lg:top-[56px] left-0 text-white font-semibold">
-                        <div class="flex items-center bg-mainred rounded-r-lg h-6 w-[54px] justify-center"><p>-30%</p></div>
-                        <div class="flex items-center bg-[#fb8c16] rounded-r-lg h-6 w-[54px] justify-center mt-[6px] uppercase"><p>new</p></div>
-                    </div>
-                    <div class="flex flex-col absolute right-[13px] top-[66px]">
-                        <button class="flex items-center">
-                            <img src="Assets/Images/product-slider/heart.webp" alt="">
-                        </button>
-                        <button class="flex items-center mt-4">
-                            <img src="Assets/Images/product-slider/star.webp" alt="">
-                        </button>
-                        <button class="flex items-center mt-4">
-                            <img src="Assets/Images/product-slider/list.webp" alt="">
-                        </button>
-                    </div>
-                    <div class="flex flex-col justify-around">
-                        <p class="text-sm text-[#5b5b5b]">Арт: 38472</p>
-                        <p class="w-fit font-bold text-[16px] h-[96px] md:h-[72px]">Лапша "Бесбармачная" <br class="hidden xl:block"> кемми" (уп. 350 гр.)</p>
-                        <div class="flex items-center">
-                            <div class="w-[7px] h-[7px] rounded-full bg-[#65ac00] mr-2"></div>
-                            <p class="text-[#65ac00] text-[15px] h-[45px] md:h-auto flex items-center">Есть в наличии</p>
-                        </div>
-                        <div class="flex flex-col justify-around">
-                            <div class="flex mt-[15px] min-h-[113px]">
-                                <div class="flex flex-col w-fit">
-                                    <p class="text-[15px] text-[#65ac00] w-fit"><span class="font-bold text-[20px]">~160</span> р./шт</p>
-                                    <p class="text-sm text-[#9d9d9d] w-fit">Оптом от коробки</p>
-                                    <p class="text-sm text-[#9d9d9d] w-fit">≈ 48 шт</p>
-                                </div>
-                                <div class="w-px h-[49px] bg-[#d5d5d5] ml-4 mr-[23px]"></div>
-                                <div class="flex flex-col">
-                                    <p class="text-[15px]"><span class="font-bold text-[20px]">180</span> р/шт.</p>
-                                    <p class="text-[15px] text-[#9d9d9d]">В розницу</p>
-                                </div>
-                            </div>
-                            <div class="flex items-center mt-[10px] mb-[14px]">
-                                <form class="w-[82px] mr-5 border-[1px] border-[#d5d5d5] flex h-[43px] counter-pcs" data-step="1" data-min="1" data-max="999">
-                                    <input type="text" class="h-full w-[53px] pl-[10px] number-pcs" value="1 шт">
-                                    <div class="flex flex-col h-full">
-                                        <button type="button" class="plus-pcs h-1/2 flex items-center justify-center border-[1px] border-t-0 border-[#d5d5d5] w-[28px] group">
-                                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 0.242091L0.656064 7.25999L2.0597 8.68468L7.99997 2.83259L13.9402 8.68468L15.3439 7.25999L8.22021 0.242091L7.99997 0.465638L7.77973 0.242091Z"/>
-                                            </svg>                                                
-                                        </button>
-                                        <button type="button" class="minus-pcs h-1/2 flex items-center justify-center border-[1px] border-y-0 border-[#d5d5d5] w-[28px] group">
-                                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 8.75786L0.656064 1.73971L2.0597 0.315009L7.99997 6.1673L13.9402 0.315009L15.3439 1.73971L8.22021 8.75786L7.99997 8.53431L7.77973 8.75786Z"/>
-                                            </svg>                                                                                              
-                                        </button>
-                                    </div>
-                                </form>
-                                <div class="flex flex-col hidden xl:flex">
-                                    <p class="text-sm text-[#9d9d9d]">Итого:</p>
-                                    <p class="text-[16px]"><span class="font-bold">180</span> р/кг.</p>
-                                </div>
-                                <button class="flex items-center justify-center rounded-full bg-mainred w-[42px] h-[42px] ml-[21px]">
-                                    <img src="Assets/Images/product-slider/cart.webp" alt="">
-                                </button>
-                            </div>
-                            <div class="flex flex-col xl:hidden mb-[14px]">
-                                <p class="text-sm text-[#9d9d9d]">Итого:</p>
-                                <p class="text-[16px]"><span class="font-bold">180</span> р/кг.</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="swiper-slide flex flex-col items-center relative bg-white shadow-xl border-[1px] border-[#d5d5d5] hover:shadow-[#e9e0b5] hover:delay-100 transition-all duration-500">
+                  <div class="flex flex-col absolute top-[6px] md:top-[81px] lg:top-2 left-0 text-white font-semibold">
+                      <div class="flex items-center bg-mainred rounded-r-lg h-6 w-[54px] justify-center"><p>-30%</p></div>
+                      <div class="flex items-center bg-[#fb8c16] rounded-r-lg h-6 w-[54px] justify-center mt-[6px] uppercase"><p>new</p></div>
+                  </div>
+                  <div class="flex flex-col absolute right-[13px] top-4">
+                      <button class="flex items-center">
+                          <img src="Assets/Images/product-slider/heart.webp" alt="">
+                      </button>
+                      <button class="flex items-center mt-4">
+                          <img src="Assets/Images/product-slider/star.webp" alt="">
+                      </button>
+                  </div>
+                  <img src="Assets/Images/product-slider/item2.png" alt="" class="mt-5 px-9 md:h-36 xl:h-48">
+                  <div class="flex flex-col px-4">
+                      <p class="text-sm text-[#5b5b5b] mt-1">Арт: <span>38472</span></p>
+                      <p class="text-base font-bold mt-1 h-[72px] xl:h-auto">Лапша "Бесбармачная" кемми" (уп. 350 гр.)</p>
+                      <div class="flex items-center mt-1 gap-2">
+                          <div class="w-[7px] h-[7px] rounded-full bg-[#65ac00]"></div>
+                          <p class="text-[#65ac00] text-[15px]">Есть в наличии</p>
+                      </div>
+                      <div class="opacity-100">
+                          <div class="flex mt-5">
+                              <div class="flex flex-col w-full">
+                                  <p class="text-[15px] text-[#65ac00] w-fit"><span class="text-xl font-bold">160</span> р./шт</p>
+                                  <p class="text-sm text-[#5b5b5b] w-fit">Оптом от коробки</p>
+                                  <p class="text-sm text-[#5b5b5b] w-fit">≈ 48 шт</p>
+                              </div>
+                              <div class="bg-[#d5d5d5] mx-2 xl:mx-[10px] h-12 w-px"></div>
+                              <div class="flex flex-col w-full">
+                                  <p class="text-[15px]"><span class="text-xl font-bold">180</span> р./шт</p>
+                                  <p class="text-sm text-[#5b5b5b]">В розницу</p>
+                              </div>
+                          </div>
+                          <div class="mt-2 xl:mb-3 flex xl:gap-5 lg:justify-between xl:justify-start">
+                              <form class="w-[82px] border-[1px] border-[#d5d5d5] flex h-[43px] counter-pcs" data-step="1" data-min="1" data-max="999">
+                                  <input type="text" class="h-full w-[53px] px-[10px] text-xs font-semibold number-pcs" value="1 шт">
+                                  <div class="flex flex-col h-full">
+                                      <button type="button" class="plus-pcs h-1/2 flex items-center justify-center border-[1px] border-t-0 border-[#d5d5d5] w-[28px] group">
+                                          <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
+                                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 0.242091L0.656064 7.25999L2.0597 8.68468L7.99997 2.83259L13.9402 8.68468L15.3439 7.25999L8.22021 0.242091L7.99997 0.465638L7.77973 0.242091Z"/>
+                                          </svg>                                                
+                                      </button>
+                                      <button type="button" class="minus-pcs h-1/2 flex items-center justify-center border-[1px] border-y-0 border-[#d5d5d5] w-[28px] group">
+                                          <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
+                                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 8.75786L0.656064 1.73971L2.0597 0.315009L7.99997 6.1673L13.9402 0.315009L15.3439 1.73971L8.22021 8.75786L7.99997 8.53431L7.77973 8.75786Z"/>
+                                          </svg>                                                                                              
+                                      </button>
+                                  </div>
+                              </form>
+                              <div class="flex flex-col hidden xl:flex xl:20">
+                                  <p class="text-sm text-[#5b5b5b]">Итого:</p>
+                                  <p class="text-[15px]"><span class="text-base font-bold">180</span> р./шт</p>
+                              </div>
+                              <button class="flex items-center justify-center rounded-full bg-mainred w-[42px] h-[42px]">
+                                  <img src="Assets/Images/product-slider/cart.webp" alt="">
+                              </button>
+                          </div>
+                          <p class="text-sm text-[#5b5b5b] xl:hidden mb-3 mt-2">Итого: <span class="text-base font-bold text-black">180</span><span class="text-black"> р./шт</span></p>
+                      </div>
+                  </div>
                 </div>
-              </div>  
-              <div class="swiper-slide flex flex-col items-center min-h-[553px] lg:min-h-[551px] xl:min-h-[478px] px-[18px] relative bg-white shadow-xl border-[1px] border-[#d5d5d5] hover:shadow-yellow-300 hover:delay-100 transition-all duration-500">
-                <div class="flex flex-col text-left justify-around">
-                    <img src="Assets/Images/product-slider/item2.png" alt="" class="min-h-[157px] md:min-h-[184px] lg:min-h-[182px] xl:min-h-[231px]">
-                    <div class="flex flex-col absolute top-[6px] md:top-[81px] lg:top-[56px] left-0 text-white font-semibold">
-                        <div class="flex items-center bg-mainred rounded-r-lg h-6 w-[54px] justify-center"><p>-30%</p></div>
-                    </div>
-                    <div class="flex flex-col absolute right-[13px] top-[66px]">
-                        <button class="flex items-center">
-                            <img src="Assets/Images/product-slider/heart.webp" alt="">
-                        </button>
-                        <button class="flex items-center mt-4">
-                            <img src="Assets/Images/product-slider/star.webp" alt="">
-                        </button>
-                        <button class="flex items-center mt-4">
-                            <img src="Assets/Images/product-slider/list.webp" alt="">
-                        </button>
-                    </div>
-                    <div class="flex flex-col justify-around">
-                        <p class="text-sm text-[#5b5b5b]">Арт: 38472</p>
-                        <p class="w-fit font-bold text-[16px] h-[96px] md:h-[72px]">Лапша "Бесбармачная" <br class="hidden xl:block"> кемми" (уп. 350 гр.)</p>
-                        <div class="flex items-center">
-                            <div class="w-[7px] h-[7px] rounded-full bg-[#fb8c16] mr-2"></div>
-                            <p class="text-[#fb8c16] text-[15px] h-[45px] md:h-auto flex items-center">Ожидается поступление</p>
-                        </div>
-                        <div class="flex flex-col justify-around opacity-40">
-                            <div class="flex mt-[15px] min-h-[113px]">
-                                <div class="flex flex-col w-fit">
-                                    <p class="text-[15px] text-[#65ac00] w-fit"><span class="font-bold text-[20px]">~160</span> р./шт</p>
-                                    <p class="text-sm text-[#9d9d9d] w-fit">Оптом от коробки</p>
-                                    <p class="text-sm text-[#9d9d9d] w-fit">≈ 48 шт</p>
-                                </div>
-                                <div class="w-px h-[49px] bg-[#d5d5d5] ml-4 mr-[23px]"></div>
-                                <div class="flex flex-col">
-                                    <p class="text-[15px]"><span class="font-bold text-[20px]">180</span> р/шт.</p>
-                                    <p class="text-[15px] text-[#9d9d9d]">В розницу</p>
-                                </div>
-                            </div>
-                            <div class="flex items-center mt-[10px] mb-[14px]">
-                                <form class="w-[82px] mr-5 border-[1px] border-[#d5d5d5] flex h-[43px] counter-pcs" data-step="1" data-min="1" data-max="999">
-                                    <input type="text" class="h-full w-[53px] pl-[10px] number-pcs" value="1 шт">
-                                    <div class="flex flex-col h-full">
-                                        <button disabled type="buttplus o-pcsn" class="h-1/2 flex items-center justify-center border-[1px] border-t-0 border-[#d5d5d5] w-[28px] group">
-                                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 0.242091L0.656064 7.25999L2.0597 8.68468L7.99997 2.83259L13.9402 8.68468L15.3439 7.25999L8.22021 0.242091L7.99997 0.465638L7.77973 0.242091Z"/>
-                                            </svg>                                                
-                                        </button>
-                                        <button disabled type="buttonminus-pcs " class="h-1/2 flex items-center justify-center border-[1px] border-y-0 border-[#d5d5d5] w-[28px] group">
-                                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 8.75786L0.656064 1.73971L2.0597 0.315009L7.99997 6.1673L13.9402 0.315009L15.3439 1.73971L8.22021 8.75786L7.99997 8.53431L7.77973 8.75786Z"/>
-                                            </svg>                                                                                              
-                                        </button>
-                                    </div>
-                                </form>
-                                <div class="flex flex-col hidden xl:flex">
-                                    <p class="text-sm text-[#9d9d9d]">Итого:</p>
-                                    <p class="text-[16px]"><span class="font-bold">180</span> р/кг.</p>
-                                </div>
-                                <button class="flex items-center justify-center rounded-full bg-mainred w-[42px] h-[42px] ml-[21px]" disabled>
-                                    <img src="Assets/Images/product-slider/cart.webp" alt="">
-                                </button>
-                            </div>
-                            <div class="flex flex-col xl:hidden mb-[14px]">
-                                <p class="text-sm text-[#9d9d9d]">Итого:</p>
-                                <p class="text-[16px]"><span class="font-bold">180</span> р/кг.</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="swiper-slide flex flex-col items-center relative bg-white shadow-xl border-[1px] border-[#d5d5d5] hover:shadow-[#e9e0b5] hover:delay-100 transition-all duration-500">
+                  <div class="flex flex-col absolute top-[6px] md:top-[81px] lg:top-2 left-0 text-white font-semibold">
+                      <div class="flex items-center bg-mainred rounded-r-lg h-6 w-[54px] justify-center"><p>-30%</p></div>
+                  </div>
+                  <div class="flex flex-col absolute right-[13px] top-4">
+                      <button class="flex items-center">
+                          <img src="Assets/Images/product-slider/heart.webp" alt="">
+                      </button>
+                      <button class="flex items-center mt-4">
+                          <img src="Assets/Images/product-slider/star.webp" alt="">
+                      </button>
+                  </div>
+                  <img src="Assets/Images/product-slider/item2.png" alt="" class="mt-5 px-9 md:h-36 xl:h-48">
+                  <div class="flex flex-col px-4">
+                      <p class="text-sm text-[#5b5b5b] mt-1">Арт: <span>38472</span></p>
+                      <p class="text-base font-bold mt-1 h-[72px] xl:h-auto">Лапша "Бесбармачная" кемми" (уп. 350 гр.)</p>
+                      <div class="flex items-center mt-1 gap-2">
+                          <div class="w-[7px] h-[7px] rounded-full bg-[#fb8c16]"></div>
+                          <p class="text-[#fb8c16] text-[15px]">Ожидается поступление</p>
+                      </div>
+                      <div class="opacity-30">
+                          <div class="flex mt-5">
+                              <div class="flex flex-col w-full">
+                                  <p class="text-[15px] text-[#65ac00] w-fit"><span class="text-xl font-bold">160</span> р./шт</p>
+                                  <p class="text-sm text-[#5b5b5b] w-fit">Оптом от коробки</p>
+                                  <p class="text-sm text-[#5b5b5b] w-fit">≈ 48 шт</p>
+                              </div>
+                              <div class="bg-[#d5d5d5] mx-2 xl:mx-[10px] h-12 w-px"></div>
+                              <div class="flex flex-col w-full">
+                                  <p class="text-[15px]"><span class="text-xl font-bold">180</span> р./шт</p>
+                                  <p class="text-sm text-[#5b5b5b]">В розницу</p>
+                              </div>
+                          </div>
+                          <div class="mt-2 xl:mb-3 flex xl:gap-5 lg:justify-between xl:justify-start">
+                              <form class="w-[82px] border-[1px] border-[#d5d5d5] flex h-[43px] counter-pcs" data-step="1" data-min="1" data-max="999">
+                                  <input type="text" class="h-full w-[53px] px-[10px] text-xs font-semibold number-pcs" value="1 шт">
+                                  <div class="flex flex-col h-full">
+                                      <button disabled type="button" class="plus-pcs h-1/2 flex items-center justify-center border-[1px] border-t-0 border-[#d5d5d5] w-[28px] group">
+                                          <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
+                                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 0.242091L0.656064 7.25999L2.0597 8.68468L7.99997 2.83259L13.9402 8.68468L15.3439 7.25999L8.22021 0.242091L7.99997 0.465638L7.77973 0.242091Z"/>
+                                          </svg>                                                
+                                      </button>
+                                      <button disabled type="button" class="minus-pcs h-1/2 flex items-center justify-center border-[1px] border-y-0 border-[#d5d5d5] w-[28px] group">
+                                          <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
+                                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 8.75786L0.656064 1.73971L2.0597 0.315009L7.99997 6.1673L13.9402 0.315009L15.3439 1.73971L8.22021 8.75786L7.99997 8.53431L7.77973 8.75786Z"/>
+                                          </svg>                                                                                              
+                                      </button>
+                                  </div>
+                              </form>
+                              <div class="flex flex-col hidden xl:flex xl:20">
+                                  <p class="text-sm text-[#5b5b5b]">Итого:</p>
+                                  <p class="text-[15px]"><span class="text-base font-bold">180</span> р./шт</p>
+                              </div>
+                              <button disabled class="flex items-center justify-center rounded-full bg-mainred w-[42px] h-[42px]">
+                                  <img src="Assets/Images/product-slider/cart.webp" alt="">
+                              </button>
+                          </div>
+                          <p class="text-sm text-[#5b5b5b] xl:hidden mb-3 mt-2">Итого: <span class="text-base font-bold text-black">180</span><span class="text-black"> р./шт</span></p>
+                      </div>
+                  </div>
                 </div>
-              </div>  
-              <div class="swiper-slide flex flex-col items-center min-h-[553px] lg:min-h-[551px] xl:min-h-[478px] px-[18px] relative bg-white shadow-xl border-[1px] border-[#d5d5d5] hover:shadow-yellow-300 hover:delay-100 transition-all duration-500">
-                <div class="flex flex-col text-left justify-around">
-                    <img src="Assets/Images/product-slider/item1.png" alt="" class="min-h-[157px] md:min-h-[184px] lg:min-h-[182px] xl:min-h-[231px]">
-                    <div class="flex flex-col absolute top-[6px] md:top-[81px] lg:top-[56px] left-0 text-white font-semibold">
-                        <div class="flex items-center bg-mainred rounded-r-lg h-6 w-[54px] justify-center"><p>-30%</p></div>
-                        <div class="flex items-center bg-[#fb8c16] rounded-r-lg h-6 w-[54px] justify-center mt-[6px] uppercase"><p>new</p></div>
-                    </div>
-                    <div class="flex flex-col absolute right-[13px] top-[66px]">
-                        <button class="flex items-center">
-                            <img src="Assets/Images/product-slider/heart.webp" alt="">
-                        </button>
-                        <button class="flex items-center mt-4">
-                            <img src="Assets/Images/product-slider/star.webp" alt="">
-                        </button>
-                        <button class="flex items-center mt-4">
-                            <img src="Assets/Images/product-slider/list.webp" alt="">
-                        </button>
-                    </div>
-                    <div class="flex flex-col justify-around">
-                        <p class="text-sm text-[#5b5b5b]">Арт: 38472</p>
-                        <p class="w-fit font-bold text-[16px] h-[96px] md:h-[72px]">Семга слабосоленая пласт <br class="hidden xl:block"> «Поедим рыбки» (в/у 0.6-1 кг.)</p>
-                        <div class="flex items-center">
-                            <div class="w-[7px] h-[7px] rounded-full bg-[#65ac00] mr-2"></div>
-                            <p class="text-[#65ac00] text-[15px] h-[45px] md:h-auto flex items-center">Есть в наличии</p>
-                        </div>
-                        <div class="flex flex-col justify-around">
-                            <div class="flex mt-[15px] min-h-[113px]">
-                                <div class="flex flex-col w-fit">
-                                    <p class="text-[15px] text-[#65ac00] w-fit"><span class="font-bold text-[20px]">~1500</span> р./кг</p>
-                                    <p class="text-sm text-[#9d9d9d] w-fit">Оптом от коробки</p>
-                                    <p class="text-sm text-[#9d9d9d] w-fit">≈ 20 кг</p>
-                                </div>
-                                <div class="w-px h-[49px] bg-[#d5d5d5] ml-4 mr-[23px]"></div>
-                                <div class="flex flex-col">
-                                    <p class="text-[15px]"><span class="font-bold text-[20px]">1 776</span> р/кг.</p>
-                                    <p class="text-[15px] text-[#9d9d9d]">В розницу</p>
-                                </div>
-                            </div>
-                            <div class="flex items-center mt-[10px] mb-[14px]">
-                                <form class="w-[82px] mr-5 border-[1px] border-[#d5d5d5] flex h-[43px] counter-kg" data-step="0.1" data-min="0.1" data-max="999">
-                                    <input type="text" class="h-full w-[53px] pl-[10px] number-kg" value="0.6 кг">
-                                    <div class="flex flex-col h-full">
-                                        <button type="button" class="plus-kg h-1/2 flex items-center justify-center border-[1px] border-t-0 border-[#d5d5d5] w-[28px] group">
-                                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 0.242091L0.656064 7.25999L2.0597 8.68468L7.99997 2.83259L13.9402 8.68468L15.3439 7.25999L8.22021 0.242091L7.99997 0.465638L7.77973 0.242091Z"/>
-                                            </svg>                                                
-                                        </button>
-                                        <button type="button" class="minus-kg h-1/2 flex items-center justify-center border-[1px] border-y-0 border-[#d5d5d5] w-[28px] group">
-                                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 8.75786L0.656064 1.73971L2.0597 0.315009L7.99997 6.1673L13.9402 0.315009L15.3439 1.73971L8.22021 8.75786L7.99997 8.53431L7.77973 8.75786Z"/>
-                                            </svg>                                                                                              
-                                        </button>
-                                    </div>
-                                </form>
-                                <div class="flex flex-col hidden xl:flex">
-                                    <p class="text-sm text-[#9d9d9d]">Итого:</p>
-                                    <p class="text-[16px]"><span class="font-bold">1 776</span> р/кг.</p>
-                                </div>
-                                <button class="flex items-center justify-center rounded-full bg-mainred w-[42px] h-[42px] ml-[21px]">
-                                    <img src="Assets/Images/product-slider/cart.webp" alt="">
-                                </button>
-                            </div>
-                            <div class="flex flex-col xl:hidden mb-[14px]">
-                                <p class="text-sm text-[#9d9d9d]">Итого:</p>
-                                <p class="text-[16px]"><span class="font-bold">1 776</span> р/кг.</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="swiper-slide flex flex-col items-center relative bg-white shadow-xl border-[1px] border-[#d5d5d5] hover:shadow-[#e9e0b5] hover:delay-100 transition-all duration-500">
+                  <div class="flex flex-col absolute top-[6px] md:top-[81px] lg:top-2 left-0 text-white font-semibold">
+                      <div class="flex items-center bg-mainred rounded-r-lg h-6 w-[54px] justify-center"><p>-30%</p></div>
+                      <div class="flex items-center bg-[#fb8c16] rounded-r-lg h-6 w-[54px] justify-center mt-[6px] uppercase"><p>new</p></div>
+                  </div>
+                  <div class="flex flex-col absolute right-[13px] top-4">
+                      <button class="flex items-center">
+                          <img src="Assets/Images/product-slider/heart.webp" alt="">
+                      </button>
+                      <button class="flex items-center mt-4">
+                          <img src="Assets/Images/product-slider/star.webp" alt="">
+                      </button>
+                      <button class="flex items-center mt-4">
+                          <img src="Assets/Images/product-slider/list.webp" alt="">
+                      </button>
+                  </div>
+                  <img src="Assets/Images/product-slider/item1.png" alt="" class="mt-5 px-9 md:h-36 xl:h-48">
+                  <div class="flex flex-col px-4">
+                      <p class="text-sm text-[#5b5b5b] mt-1">Арт: <span>38472</span></p>
+                      <p class="text-base font-bold mt-1 h-[72px] xl:h-auto">Семга слабосоленая пласт «Поедим рыбки» (в/у 0.6-1 кг.)</p>
+                      <div class="flex items-center mt-1 gap-2">
+                          <div class="w-[7px] h-[7px] rounded-full bg-[#65ac00]"></div>
+                          <p class="text-[#65ac00] text-[15px]">Есть в наличии</p>
+                      </div>
+                      <div class="opacity-100">
+                          <div class="flex mt-5">
+                              <div class="flex flex-col w-full">
+                                  <p class="text-[15px] text-[#65ac00] w-fit"><span class="text-xl font-bold">1500</span> р./кг</p>
+                                  <p class="text-sm text-[#5b5b5b] w-fit">Оптом от коробки</p>
+                                  <p class="text-sm text-[#5b5b5b] w-fit">≈ 20 кг</p>
+                              </div>
+                              <div class="bg-[#d5d5d5] mx-2 xl:mx-[10px] h-12 w-px"></div>
+                              <div class="flex flex-col w-full">
+                                  <p class="text-[15px]"><span class="text-xl font-bold">1776</span> р./кг</p>
+                                  <p class="text-sm text-[#5b5b5b]">В розницу</p>
+                              </div>
+                          </div>
+                          <div class="mt-2 xl:mb-3 flex xl:gap-5 lg:justify-between xl:justify-start">
+                              <form class="w-[82px] border-[1px] border-[#d5d5d5] flex h-[43px] counter-kg" data-step="0.1" data-min="0.1" data-max="999">
+                                  <input type="text" class="h-full w-[53px] px-[10px] text-xs font-semibold number-kg" value="0.6 кг">
+                                  <div class="flex flex-col h-full w-4/12">
+                                      <button type="button" class="plus-kg h-1/2 flex items-center justify-center border-[1px] border-t-0 border-[#d5d5d5] w-[28px] group">
+                                          <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
+                                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 0.242091L0.656064 7.25999L2.0597 8.68468L7.99997 2.83259L13.9402 8.68468L15.3439 7.25999L8.22021 0.242091L7.99997 0.465638L7.77973 0.242091Z"/>
+                                          </svg>                                                
+                                      </button>
+                                      <button type="button" class="minus-kg h-1/2 flex items-center justify-center border-[1px] border-y-0 border-[#d5d5d5] w-[28px] group">
+                                          <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
+                                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 8.75786L0.656064 1.73971L2.0597 0.315009L7.99997 6.1673L13.9402 0.315009L15.3439 1.73971L8.22021 8.75786L7.99997 8.53431L7.77973 8.75786Z"/>
+                                          </svg>                                                                                              
+                                      </button>
+                                  </div>
+                              </form>
+                              <div class="flex flex-col hidden xl:flex xl:20">
+                                  <p class="text-sm text-[#5b5b5b]">Итого:</p>
+                                  <p class="text-[15px]"><span class="text-base font-bold">1776</span> р./кг</p>
+                              </div>
+                              <button class="flex items-center justify-center rounded-full bg-mainred w-[42px] h-[42px]">
+                                  <img src="Assets/Images/product-slider/cart.webp" alt="">
+                              </button>
+                          </div>
+                          <p class="text-sm text-[#5b5b5b] xl:hidden mb-3 mt-2">Итого: <span class="text-base font-bold text-black">1776</span><span class="text-black"> р./кг</span></p>
+                      </div>
+                  </div>
                 </div>
               </div>
-            </div>
           </div>
     </div>
 
@@ -1291,288 +1239,262 @@
         </div>
         <div class="swiper hits-slider w-full mt-[26px]">
             <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-              <!-- Slides -->
-              <div class="swiper-slide flex flex-col items-center min-h-[553px] lg:min-h-[551px] xl:min-h-[478px] px-[18px] relative bg-white shadow-xl border-[1px] border-[#d5d5d5] hover:shadow-yellow-300 hover:delay-100 transition-all duration-500">
-                <div class="flex flex-col text-left justify-around">
-                    <img src="Assets/Images/product-slider/item1.png" alt="" class="min-h-[157px] md:min-h-[184px] lg:min-h-[182px] xl:min-h-[231px]">
-                    <div class="flex flex-col absolute top-[6px] md:top-[81px] lg:top-[56px] left-0 text-white font-semibold">
-                        <div class="flex items-center bg-mainred rounded-r-lg h-6 w-[54px] justify-center"><p>-30%</p></div>
-                        <div class="flex items-center bg-[#fb8c16] rounded-r-lg h-6 w-[54px] justify-center mt-[6px] uppercase"><p>new</p></div>
-                    </div>
-                    <div class="flex flex-col absolute right-[13px] top-[66px]">
-                        <button class="flex items-center">
-                            <img src="Assets/Images/product-slider/heart.webp" alt="">
-                        </button>
-                        <button class="flex items-center mt-4">
-                            <img src="Assets/Images/product-slider/star.webp" alt="">
-                        </button>
-                        <button class="flex items-center mt-4">
-                            <img src="Assets/Images/product-slider/list.webp" alt="">
-                        </button>
-                    </div>
-                    <div class="flex flex-col justify-around">
-                        <p class="text-sm text-[#5b5b5b]">Арт: 38472</p>
-                        <p class="w-fit font-bold text-[16px] h-[96px] md:h-[72px]">Семга слабосоленая пласт <br class="hidden xl:block"> «Поедим рыбки» (в/у 0.6-1 кг.)</p>
-                        <div class="flex items-center">
-                            <div class="w-[7px] h-[7px] rounded-full bg-[#65ac00] mr-2"></div>
-                            <p class="text-[#65ac00] text-[15px] h-[45px] md:h-auto flex items-center">Есть в наличии</p>
-                        </div>
-                        <div class="flex flex-col justify-around">
-                            <div class="flex mt-[15px] min-h-[113px]">
-                                <div class="flex flex-col w-fit">
-                                    <p class="text-[15px] text-[#65ac00] w-fit"><span class="font-bold text-[20px]">~1500</span> р./кг</p>
-                                    <p class="text-sm text-[#9d9d9d] w-fit">Оптом от коробки</p>
-                                    <p class="text-sm text-[#9d9d9d] w-fit">≈ 20 кг</p>
-                                </div>
-                                <div class="w-px h-[49px] bg-[#d5d5d5] ml-4 mr-[23px]"></div>
-                                <div class="flex flex-col">
-                                    <p class="text-[15px]"><span class="font-bold text-[20px]">1 776</span> р/кг.</p>
-                                    <p class="text-[15px] text-[#9d9d9d]">В розницу</p>
-                                </div>
-                            </div>
-                            <div class="flex items-center mt-[10px] mb-[14px]">
-                                <form class="w-[82px] mr-5 border-[1px] border-[#d5d5d5] flex h-[43px] counter-kg" data-step="0.1" data-min="0.1" data-max="999">
-                                    <input type="text" class="h-full w-[53px] pl-[10px] number-kg" value="0.6 кг">
-                                    <div class="flex flex-col h-full">
-                                        <button type="button" class="plus-kg h-1/2 flex items-center justify-center border-[1px] border-t-0 border-[#d5d5d5] w-[28px] group">
-                                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 0.242091L0.656064 7.25999L2.0597 8.68468L7.99997 2.83259L13.9402 8.68468L15.3439 7.25999L8.22021 0.242091L7.99997 0.465638L7.77973 0.242091Z"/>
-                                            </svg>                                                
-                                        </button>
-                                        <button type="button" class="minus-kg h-1/2 flex items-center justify-center border-[1px] border-y-0 border-[#d5d5d5] w-[28px] group">
-                                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 8.75786L0.656064 1.73971L2.0597 0.315009L7.99997 6.1673L13.9402 0.315009L15.3439 1.73971L8.22021 8.75786L7.99997 8.53431L7.77973 8.75786Z"/>
-                                            </svg>                                                                                              
-                                        </button>
-                                    </div>
-                                </form>
-                                <div class="flex flex-col hidden xl:flex">
-                                    <p class="text-sm text-[#9d9d9d]">Итого:</p>
-                                    <p class="text-[16px]"><span class="font-bold">1 776</span> р/кг.</p>
-                                </div>
-                                <button class="flex items-center justify-center rounded-full bg-mainred w-[42px] h-[42px] ml-[21px]">
-                                    <img src="Assets/Images/product-slider/cart.webp" alt="">
-                                </button>
-                            </div>
-                            <div class="flex flex-col xl:hidden mb-[14px]">
-                                <p class="text-sm text-[#9d9d9d]">Итого:</p>
-                                <p class="text-[16px]"><span class="font-bold">1 776</span> р/кг.</p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="swiper-wrapper h-full">
+                <!-- Slides -->
+                <div class="swiper-slide flex flex-col items-center relative bg-white shadow-xl border-[1px] border-[#d5d5d5] hover:shadow-[#e9e0b5] hover:delay-100 transition-all duration-500">
+                  <div class="flex flex-col absolute top-[6px] md:top-[81px] lg:top-2 left-0 text-white font-semibold">
+                      <div class="flex items-center bg-mainred rounded-r-lg h-6 w-[54px] justify-center"><p>-30%</p></div>
+                      <div class="flex items-center bg-[#fb8c16] rounded-r-lg h-6 w-[54px] justify-center mt-[6px] uppercase"><p>new</p></div>
+                  </div>
+                  <div class="flex flex-col absolute right-[13px] top-4">
+                      <button class="flex items-center">
+                          <img src="Assets/Images/product-slider/heart.webp" alt="">
+                      </button>
+                      <button class="flex items-center mt-4">
+                          <img src="Assets/Images/product-slider/star.webp" alt="">
+                      </button>
+                      <button class="flex items-center mt-4">
+                          <img src="Assets/Images/product-slider/list.webp" alt="">
+                      </button>
+                  </div>
+                  <img src="Assets/Images/product-slider/item1.png" alt="" class="mt-5 px-9 md:h-36 xl:h-48">
+                  <div class="flex flex-col px-4">
+                      <p class="text-sm text-[#5b5b5b] mt-1">Арт: <span>38472</span></p>
+                      <p class="text-base font-bold mt-1 h-[72px] xl:h-auto">Семга слабосоленая пласт «Поедим рыбки» (в/у 0.6-1 кг.)</p>
+                      <div class="flex items-center mt-1 gap-2">
+                          <div class="w-[7px] h-[7px] rounded-full bg-[#65ac00]"></div>
+                          <p class="text-[#65ac00] text-[15px]">Есть в наличии</p>
+                      </div>
+                      <div class="opacity-100">
+                          <div class="flex mt-5">
+                              <div class="flex flex-col w-full">
+                                  <p class="text-[15px] text-[#65ac00] w-fit"><span class="text-xl font-bold">1500</span> р./кг</p>
+                                  <p class="text-sm text-[#5b5b5b] w-fit">Оптом от коробки</p>
+                                  <p class="text-sm text-[#5b5b5b] w-fit">≈ 20 кг</p>
+                              </div>
+                              <div class="bg-[#d5d5d5] mx-2 xl:mx-[10px] h-12 w-px"></div>
+                              <div class="flex flex-col w-full">
+                                  <p class="text-[15px]"><span class="text-xl font-bold">1776</span> р./кг</p>
+                                  <p class="text-sm text-[#5b5b5b]">В розницу</p>
+                              </div>
+                          </div>
+                          <div class="mt-2 xl:mb-3 flex xl:gap-5 lg:justify-between xl:justify-start">
+                              <form class="w-[82px] border-[1px] border-[#d5d5d5] flex h-[43px] counter-kg" data-step="0.1" data-min="0.1" data-max="999">
+                                  <input type="text" class="h-full w-[53px] px-[10px] text-xs font-semibold number-kg" value="0.6 кг">
+                                  <div class="flex flex-col h-full w-4/12">
+                                      <button type="button" class="plus-kg h-1/2 flex items-center justify-center border-[1px] border-t-0 border-[#d5d5d5] w-[28px] group">
+                                          <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
+                                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 0.242091L0.656064 7.25999L2.0597 8.68468L7.99997 2.83259L13.9402 8.68468L15.3439 7.25999L8.22021 0.242091L7.99997 0.465638L7.77973 0.242091Z"/>
+                                          </svg>                                                
+                                      </button>
+                                      <button type="button" class="minus-kg h-1/2 flex items-center justify-center border-[1px] border-y-0 border-[#d5d5d5] w-[28px] group">
+                                          <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
+                                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 8.75786L0.656064 1.73971L2.0597 0.315009L7.99997 6.1673L13.9402 0.315009L15.3439 1.73971L8.22021 8.75786L7.99997 8.53431L7.77973 8.75786Z"/>
+                                          </svg>                                                                                              
+                                      </button>
+                                  </div>
+                              </form>
+                              <div class="flex flex-col hidden xl:flex xl:20">
+                                  <p class="text-sm text-[#5b5b5b]">Итого:</p>
+                                  <p class="text-[15px]"><span class="text-base font-bold">1776</span> р./кг</p>
+                              </div>
+                              <button class="flex items-center justify-center rounded-full bg-mainred w-[42px] h-[42px]">
+                                  <img src="Assets/Images/product-slider/cart.webp" alt="">
+                              </button>
+                          </div>
+                          <p class="text-sm text-[#5b5b5b] xl:hidden mb-3 mt-2">Итого: <span class="text-base font-bold text-black">1776</span><span class="text-black"> р./кг</span></p>
+                      </div>
+                  </div>
                 </div>
-              </div>      
-              <div class="swiper-slide flex flex-col items-center min-h-[553px] lg:min-h-[551px] xl:min-h-[478px] px-[18px] relative bg-white shadow-xl border-[1px] border-[#d5d5d5] hover:shadow-yellow-300 hover:delay-100 transition-all duration-500">
-                <div class="flex flex-col text-left justify-around">
-                    <img src="Assets/Images/product-slider/item2.png" alt="" class="min-h-[157px] md:min-h-[184px] lg:min-h-[182px] xl:min-h-[231px]">
-                    <div class="flex flex-col absolute top-[6px] md:top-[81px] lg:top-[56px] left-0 text-white font-semibold">
-                        <div class="flex items-center bg-mainred rounded-r-lg h-6 w-[54px] justify-center"><p>-30%</p></div>
-                        <div class="flex items-center bg-[#fb8c16] rounded-r-lg h-6 w-[54px] justify-center mt-[6px] uppercase"><p>new</p></div>
-                    </div>
-                    <div class="flex flex-col absolute right-[13px] top-[66px]">
-                        <button class="flex items-center">
-                            <img src="Assets/Images/product-slider/heart.webp" alt="">
-                        </button>
-                        <button class="flex items-center mt-4">
-                            <img src="Assets/Images/product-slider/star.webp" alt="">
-                        </button>
-                        <button class="flex items-center mt-4">
-                            <img src="Assets/Images/product-slider/list.webp" alt="">
-                        </button>
-                    </div>
-                    <div class="flex flex-col justify-around">
-                        <p class="text-sm text-[#5b5b5b]">Арт: 38472</p>
-                        <p class="w-fit font-bold text-[16px] h-[96px] md:h-[72px]">Лапша "Бесбармачная" <br class="hidden xl:block"> кемми" (уп. 350 гр.)</p>
-                        <div class="flex items-center">
-                            <div class="w-[7px] h-[7px] rounded-full bg-[#65ac00] mr-2"></div>
-                            <p class="text-[#65ac00] text-[15px] h-[45px] md:h-auto flex items-center">Есть в наличии</p>
-                        </div>
-                        <div class="flex flex-col justify-around">
-                            <div class="flex mt-[15px] min-h-[113px]">
-                                <div class="flex flex-col w-fit">
-                                    <p class="text-[15px] text-[#65ac00] w-fit"><span class="font-bold text-[20px]">~160</span> р./шт</p>
-                                    <p class="text-sm text-[#9d9d9d] w-fit">Оптом от коробки</p>
-                                    <p class="text-sm text-[#9d9d9d] w-fit">≈ 48 шт</p>
-                                </div>
-                                <div class="w-px h-[49px] bg-[#d5d5d5] ml-4 mr-[23px]"></div>
-                                <div class="flex flex-col">
-                                    <p class="text-[15px]"><span class="font-bold text-[20px]">180</span> р/шт.</p>
-                                    <p class="text-[15px] text-[#9d9d9d]">В розницу</p>
-                                </div>
-                            </div>
-                            <div class="flex items-center mt-[10px] mb-[14px]">
-                                <form class="w-[82px] mr-5 border-[1px] border-[#d5d5d5] flex h-[43px] counter-pcs" data-step="1" data-min="1" data-max="999">
-                                    <input type="text" class="h-full w-[53px] pl-[10px] number-pcs" value="1 шт">
-                                    <div class="flex flex-col h-full">
-                                        <button type="button" class="plus-pcs h-1/2 flex items-center justify-center border-[1px] border-t-0 border-[#d5d5d5] w-[28px] group">
-                                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 0.242091L0.656064 7.25999L2.0597 8.68468L7.99997 2.83259L13.9402 8.68468L15.3439 7.25999L8.22021 0.242091L7.99997 0.465638L7.77973 0.242091Z"/>
-                                            </svg>                                                
-                                        </button>
-                                        <button type="button" class="minus-pcs h-1/2 flex items-center justify-center border-[1px] border-y-0 border-[#d5d5d5] w-[28px] group">
-                                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 8.75786L0.656064 1.73971L2.0597 0.315009L7.99997 6.1673L13.9402 0.315009L15.3439 1.73971L8.22021 8.75786L7.99997 8.53431L7.77973 8.75786Z"/>
-                                            </svg>                                                                                              
-                                        </button>
-                                    </div>
-                                </form>
-                                <div class="flex flex-col hidden xl:flex">
-                                    <p class="text-sm text-[#9d9d9d]">Итого:</p>
-                                    <p class="text-[16px]"><span class="font-bold">180</span> р/кг.</p>
-                                </div>
-                                <button class="flex items-center justify-center rounded-full bg-mainred w-[42px] h-[42px] ml-[21px]">
-                                    <img src="Assets/Images/product-slider/cart.webp" alt="">
-                                </button>
-                            </div>
-                            <div class="flex flex-col xl:hidden mb-[14px]">
-                                <p class="text-sm text-[#9d9d9d]">Итого:</p>
-                                <p class="text-[16px]"><span class="font-bold">180</span> р/кг.</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="swiper-slide flex flex-col items-center relative bg-white shadow-xl border-[1px] border-[#d5d5d5] hover:shadow-[#e9e0b5] hover:delay-100 transition-all duration-500">
+                  <div class="flex flex-col absolute top-[6px] md:top-[81px] lg:top-2 left-0 text-white font-semibold">
+                      <div class="flex items-center bg-mainred rounded-r-lg h-6 w-[54px] justify-center"><p>-30%</p></div>
+                      <div class="flex items-center bg-[#fb8c16] rounded-r-lg h-6 w-[54px] justify-center mt-[6px] uppercase"><p>new</p></div>
+                  </div>
+                  <div class="flex flex-col absolute right-[13px] top-4">
+                      <button class="flex items-center">
+                          <img src="Assets/Images/product-slider/heart.webp" alt="">
+                      </button>
+                      <button class="flex items-center mt-4">
+                          <img src="Assets/Images/product-slider/star.webp" alt="">
+                      </button>
+                  </div>
+                  <img src="Assets/Images/product-slider/item2.png" alt="" class="mt-5 px-9 md:h-36 xl:h-48">
+                  <div class="flex flex-col px-4">
+                      <p class="text-sm text-[#5b5b5b] mt-1">Арт: <span>38472</span></p>
+                      <p class="text-base font-bold mt-1 h-[72px] xl:h-auto">Лапша "Бесбармачная" кемми" (уп. 350 гр.)</p>
+                      <div class="flex items-center mt-1 gap-2">
+                          <div class="w-[7px] h-[7px] rounded-full bg-[#65ac00]"></div>
+                          <p class="text-[#65ac00] text-[15px]">Есть в наличии</p>
+                      </div>
+                      <div class="opacity-100">
+                          <div class="flex mt-5">
+                              <div class="flex flex-col w-full">
+                                  <p class="text-[15px] text-[#65ac00] w-fit"><span class="text-xl font-bold">160</span> р./шт</p>
+                                  <p class="text-sm text-[#5b5b5b] w-fit">Оптом от коробки</p>
+                                  <p class="text-sm text-[#5b5b5b] w-fit">≈ 48 шт</p>
+                              </div>
+                              <div class="bg-[#d5d5d5] mx-2 xl:mx-[10px] h-12 w-px"></div>
+                              <div class="flex flex-col w-full">
+                                  <p class="text-[15px]"><span class="text-xl font-bold">180</span> р./шт</p>
+                                  <p class="text-sm text-[#5b5b5b]">В розницу</p>
+                              </div>
+                          </div>
+                          <div class="mt-2 xl:mb-3 flex xl:gap-5 lg:justify-between xl:justify-start">
+                              <form class="w-[82px] border-[1px] border-[#d5d5d5] flex h-[43px] counter-pcs" data-step="1" data-min="1" data-max="999">
+                                  <input type="text" class="h-full w-[53px] px-[10px] text-xs font-semibold number-pcs" value="1 шт">
+                                  <div class="flex flex-col h-full">
+                                      <button type="button" class="plus-pcs h-1/2 flex items-center justify-center border-[1px] border-t-0 border-[#d5d5d5] w-[28px] group">
+                                          <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
+                                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 0.242091L0.656064 7.25999L2.0597 8.68468L7.99997 2.83259L13.9402 8.68468L15.3439 7.25999L8.22021 0.242091L7.99997 0.465638L7.77973 0.242091Z"/>
+                                          </svg>                                                
+                                      </button>
+                                      <button type="button" class="minus-pcs h-1/2 flex items-center justify-center border-[1px] border-y-0 border-[#d5d5d5] w-[28px] group">
+                                          <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
+                                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 8.75786L0.656064 1.73971L2.0597 0.315009L7.99997 6.1673L13.9402 0.315009L15.3439 1.73971L8.22021 8.75786L7.99997 8.53431L7.77973 8.75786Z"/>
+                                          </svg>                                                                                              
+                                      </button>
+                                  </div>
+                              </form>
+                              <div class="flex flex-col hidden xl:flex xl:20">
+                                  <p class="text-sm text-[#5b5b5b]">Итого:</p>
+                                  <p class="text-[15px]"><span class="text-base font-bold">180</span> р./шт</p>
+                              </div>
+                              <button class="flex items-center justify-center rounded-full bg-mainred w-[42px] h-[42px]">
+                                  <img src="Assets/Images/product-slider/cart.webp" alt="">
+                              </button>
+                          </div>
+                          <p class="text-sm text-[#5b5b5b] xl:hidden mb-3 mt-2">Итого: <span class="text-base font-bold text-black">180</span><span class="text-black"> р./шт</span></p>
+                      </div>
+                  </div>
                 </div>
-              </div>  
-              <div class="swiper-slide flex flex-col items-center min-h-[553px] lg:min-h-[551px] xl:min-h-[478px] px-[18px] relative bg-white shadow-xl border-[1px] border-[#d5d5d5] hover:shadow-yellow-300 hover:delay-100 transition-all duration-500">
-                <div class="flex flex-col text-left justify-around">
-                    <img src="Assets/Images/product-slider/item2.png" alt="" class="min-h-[157px] md:min-h-[184px] lg:min-h-[182px] xl:min-h-[231px]">
-                    <div class="flex flex-col absolute top-[6px] md:top-[81px] lg:top-[56px] left-0 text-white font-semibold">
-                        <div class="flex items-center bg-mainred rounded-r-lg h-6 w-[54px] justify-center"><p>-30%</p></div>
-                    </div>
-                    <div class="flex flex-col absolute right-[13px] top-[66px]">
-                        <button class="flex items-center">
-                            <img src="Assets/Images/product-slider/heart.webp" alt="">
-                        </button>
-                        <button class="flex items-center mt-4">
-                            <img src="Assets/Images/product-slider/star.webp" alt="">
-                        </button>
-                        <button class="flex items-center mt-4">
-                            <img src="Assets/Images/product-slider/list.webp" alt="">
-                        </button>
-                    </div>
-                    <div class="flex flex-col justify-around">
-                        <p class="text-sm text-[#5b5b5b]">Арт: 38472</p>
-                        <p class="w-fit font-bold text-[16px] h-[96px] md:h-[72px]">Лапша "Бесбармачная" <br class="hidden xl:block"> кемми" (уп. 350 гр.)</p>
-                        <div class="flex items-center">
-                            <div class="w-[7px] h-[7px] rounded-full bg-[#fb8c16] mr-2"></div>
-                            <p class="text-[#fb8c16] text-[15px] h-[45px] md:h-auto flex items-center">Ожидается поступление</p>
-                        </div>
-                        <div class="flex flex-col justify-around opacity-40">
-                            <div class="flex mt-[15px] min-h-[113px]">
-                                <div class="flex flex-col w-fit">
-                                    <p class="text-[15px] text-[#65ac00] w-fit"><span class="font-bold text-[20px]">~160</span> р./шт</p>
-                                    <p class="text-sm text-[#9d9d9d] w-fit">Оптом от коробки</p>
-                                    <p class="text-sm text-[#9d9d9d] w-fit">≈ 48 шт</p>
-                                </div>
-                                <div class="w-px h-[49px] bg-[#d5d5d5] ml-4 mr-[23px]"></div>
-                                <div class="flex flex-col">
-                                    <p class="text-[15px]"><span class="font-bold text-[20px]">180</span> р/шт.</p>
-                                    <p class="text-[15px] text-[#9d9d9d]">В розницу</p>
-                                </div>
-                            </div>
-                            <div class="flex items-center mt-[10px] mb-[14px]">
-                                <form class="w-[82px] mr-5 border-[1px] border-[#d5d5d5] flex h-[43px] counter-pcs" data-step="1" data-min="1" data-max="999">
-                                    <input type="text" class="h-full w-[53px] pl-[10px] number-pcs" value="1 шт">
-                                    <div class="flex flex-col h-full">
-                                        <button disabled type="buttplus o-pcsn" class="h-1/2 flex items-center justify-center border-[1px] border-t-0 border-[#d5d5d5] w-[28px] group">
-                                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 0.242091L0.656064 7.25999L2.0597 8.68468L7.99997 2.83259L13.9402 8.68468L15.3439 7.25999L8.22021 0.242091L7.99997 0.465638L7.77973 0.242091Z"/>
-                                            </svg>                                                
-                                        </button>
-                                        <button disabled type="buttonminus-pcs " class="h-1/2 flex items-center justify-center border-[1px] border-y-0 border-[#d5d5d5] w-[28px] group">
-                                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 8.75786L0.656064 1.73971L2.0597 0.315009L7.99997 6.1673L13.9402 0.315009L15.3439 1.73971L8.22021 8.75786L7.99997 8.53431L7.77973 8.75786Z"/>
-                                            </svg>                                                                                              
-                                        </button>
-                                    </div>
-                                </form>
-                                <div class="flex flex-col hidden xl:flex">
-                                    <p class="text-sm text-[#9d9d9d]">Итого:</p>
-                                    <p class="text-[16px]"><span class="font-bold">180</span> р/кг.</p>
-                                </div>
-                                <button class="flex items-center justify-center rounded-full bg-mainred w-[42px] h-[42px] ml-[21px]" disabled>
-                                    <img src="Assets/Images/product-slider/cart.webp" alt="">
-                                </button>
-                            </div>
-                            <div class="flex flex-col xl:hidden mb-[14px]">
-                                <p class="text-sm text-[#9d9d9d]">Итого:</p>
-                                <p class="text-[16px]"><span class="font-bold">180</span> р/кг.</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="swiper-slide flex flex-col items-center relative bg-white shadow-xl border-[1px] border-[#d5d5d5] hover:shadow-[#e9e0b5] hover:delay-100 transition-all duration-500">
+                  <div class="flex flex-col absolute top-[6px] md:top-[81px] lg:top-2 left-0 text-white font-semibold">
+                      <div class="flex items-center bg-mainred rounded-r-lg h-6 w-[54px] justify-center"><p>-30%</p></div>
+                  </div>
+                  <div class="flex flex-col absolute right-[13px] top-4">
+                      <button class="flex items-center">
+                          <img src="Assets/Images/product-slider/heart.webp" alt="">
+                      </button>
+                      <button class="flex items-center mt-4">
+                          <img src="Assets/Images/product-slider/star.webp" alt="">
+                      </button>
+                  </div>
+                  <img src="Assets/Images/product-slider/item2.png" alt="" class="mt-5 px-9 md:h-36 xl:h-48">
+                  <div class="flex flex-col px-4">
+                      <p class="text-sm text-[#5b5b5b] mt-1">Арт: <span>38472</span></p>
+                      <p class="text-base font-bold mt-1 h-[72px] xl:h-auto">Лапша "Бесбармачная" кемми" (уп. 350 гр.)</p>
+                      <div class="flex items-center mt-1 gap-2">
+                          <div class="w-[7px] h-[7px] rounded-full bg-[#fb8c16]"></div>
+                          <p class="text-[#fb8c16] text-[15px]">Ожидается поступление</p>
+                      </div>
+                      <div class="opacity-30">
+                          <div class="flex mt-5">
+                              <div class="flex flex-col w-full">
+                                  <p class="text-[15px] text-[#65ac00] w-fit"><span class="text-xl font-bold">160</span> р./шт</p>
+                                  <p class="text-sm text-[#5b5b5b] w-fit">Оптом от коробки</p>
+                                  <p class="text-sm text-[#5b5b5b] w-fit">≈ 48 шт</p>
+                              </div>
+                              <div class="bg-[#d5d5d5] mx-2 xl:mx-[10px] h-12 w-px"></div>
+                              <div class="flex flex-col w-full">
+                                  <p class="text-[15px]"><span class="text-xl font-bold">180</span> р./шт</p>
+                                  <p class="text-sm text-[#5b5b5b]">В розницу</p>
+                              </div>
+                          </div>
+                          <div class="mt-2 xl:mb-3 flex xl:gap-5 lg:justify-between xl:justify-start">
+                              <form class="w-[82px] border-[1px] border-[#d5d5d5] flex h-[43px] counter-pcs" data-step="1" data-min="1" data-max="999">
+                                  <input type="text" class="h-full w-[53px] px-[10px] text-xs font-semibold number-pcs" value="1 шт">
+                                  <div class="flex flex-col h-full">
+                                      <button disabled type="button" class="plus-pcs h-1/2 flex items-center justify-center border-[1px] border-t-0 border-[#d5d5d5] w-[28px] group">
+                                          <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
+                                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 0.242091L0.656064 7.25999L2.0597 8.68468L7.99997 2.83259L13.9402 8.68468L15.3439 7.25999L8.22021 0.242091L7.99997 0.465638L7.77973 0.242091Z"/>
+                                          </svg>                                                
+                                      </button>
+                                      <button disabled type="button" class="minus-pcs h-1/2 flex items-center justify-center border-[1px] border-y-0 border-[#d5d5d5] w-[28px] group">
+                                          <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
+                                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 8.75786L0.656064 1.73971L2.0597 0.315009L7.99997 6.1673L13.9402 0.315009L15.3439 1.73971L8.22021 8.75786L7.99997 8.53431L7.77973 8.75786Z"/>
+                                          </svg>                                                                                              
+                                      </button>
+                                  </div>
+                              </form>
+                              <div class="flex flex-col hidden xl:flex xl:20">
+                                  <p class="text-sm text-[#5b5b5b]">Итого:</p>
+                                  <p class="text-[15px]"><span class="text-base font-bold">180</span> р./шт</p>
+                              </div>
+                              <button disabled class="flex items-center justify-center rounded-full bg-mainred w-[42px] h-[42px]">
+                                  <img src="Assets/Images/product-slider/cart.webp" alt="">
+                              </button>
+                          </div>
+                          <p class="text-sm text-[#5b5b5b] xl:hidden mb-3 mt-2">Итого: <span class="text-base font-bold text-black">180</span><span class="text-black"> р./шт</span></p>
+                      </div>
+                  </div>
                 </div>
-              </div>  
-              <div class="swiper-slide flex flex-col items-center min-h-[553px] lg:min-h-[551px] xl:min-h-[478px] px-[18px] relative bg-white shadow-xl border-[1px] border-[#d5d5d5] hover:shadow-yellow-300 hover:delay-100 transition-all duration-500">
-                <div class="flex flex-col text-left justify-around">
-                    <img src="Assets/Images/product-slider/item1.png" alt="" class="min-h-[157px] md:min-h-[184px] lg:min-h-[182px] xl:min-h-[231px]">
-                    <div class="flex flex-col absolute top-[6px] md:top-[81px] lg:top-[56px] left-0 text-white font-semibold">
-                        <div class="flex items-center bg-mainred rounded-r-lg h-6 w-[54px] justify-center"><p>-30%</p></div>
-                        <div class="flex items-center bg-[#fb8c16] rounded-r-lg h-6 w-[54px] justify-center mt-[6px] uppercase"><p>new</p></div>
-                    </div>
-                    <div class="flex flex-col absolute right-[13px] top-[66px]">
-                        <button class="flex items-center">
-                            <img src="Assets/Images/product-slider/heart.webp" alt="">
-                        </button>
-                        <button class="flex items-center mt-4">
-                            <img src="Assets/Images/product-slider/star.webp" alt="">
-                        </button>
-                        <button class="flex items-center mt-4">
-                            <img src="Assets/Images/product-slider/list.webp" alt="">
-                        </button>
-                    </div>
-                    <div class="flex flex-col justify-around">
-                        <p class="text-sm text-[#5b5b5b]">Арт: 38472</p>
-                        <p class="w-fit font-bold text-[16px] h-[96px] md:h-[72px]">Семга слабосоленая пласт <br class="hidden xl:block"> «Поедим рыбки» (в/у 0.6-1 кг.)</p>
-                        <div class="flex items-center">
-                            <div class="w-[7px] h-[7px] rounded-full bg-[#65ac00] mr-2"></div>
-                            <p class="text-[#65ac00] text-[15px] h-[45px] md:h-auto flex items-center">Есть в наличии</p>
-                        </div>
-                        <div class="flex flex-col justify-around">
-                            <div class="flex mt-[15px] min-h-[113px]">
-                                <div class="flex flex-col w-fit">
-                                    <p class="text-[15px] text-[#65ac00] w-fit"><span class="font-bold text-[20px]">~1500</span> р./кг</p>
-                                    <p class="text-sm text-[#9d9d9d] w-fit">Оптом от коробки</p>
-                                    <p class="text-sm text-[#9d9d9d] w-fit">≈ 20 кг</p>
-                                </div>
-                                <div class="w-px h-[49px] bg-[#d5d5d5] ml-4 mr-[23px]"></div>
-                                <div class="flex flex-col">
-                                    <p class="text-[15px]"><span class="font-bold text-[20px]">1 776</span> р/кг.</p>
-                                    <p class="text-[15px] text-[#9d9d9d]">В розницу</p>
-                                </div>
-                            </div>
-                            <div class="flex items-center mt-[10px] mb-[14px]">
-                                <form class="w-[82px] mr-5 border-[1px] border-[#d5d5d5] flex h-[43px] counter-kg" data-step="0.1" data-min="0.1" data-max="999">
-                                    <input type="text" class="h-full w-[53px] pl-[10px] number-kg" value="0.6 кг">
-                                    <div class="flex flex-col h-full">
-                                        <button type="button" class="plus-kg h-1/2 flex items-center justify-center border-[1px] border-t-0 border-[#d5d5d5] w-[28px] group">
-                                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 0.242091L0.656064 7.25999L2.0597 8.68468L7.99997 2.83259L13.9402 8.68468L15.3439 7.25999L8.22021 0.242091L7.99997 0.465638L7.77973 0.242091Z"/>
-                                            </svg>                                                
-                                        </button>
-                                        <button type="button" class="minus-kg h-1/2 flex items-center justify-center border-[1px] border-y-0 border-[#d5d5d5] w-[28px] group">
-                                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 8.75786L0.656064 1.73971L2.0597 0.315009L7.99997 6.1673L13.9402 0.315009L15.3439 1.73971L8.22021 8.75786L7.99997 8.53431L7.77973 8.75786Z"/>
-                                            </svg>                                                                                              
-                                        </button>
-                                    </div>
-                                </form>
-                                <div class="flex flex-col hidden xl:flex">
-                                    <p class="text-sm text-[#9d9d9d]">Итого:</p>
-                                    <p class="text-[16px]"><span class="font-bold">1 776</span> р/кг.</p>
-                                </div>
-                                <button class="flex items-center justify-center rounded-full bg-mainred w-[42px] h-[42px] ml-[21px]">
-                                    <img src="Assets/Images/product-slider/cart.webp" alt="">
-                                </button>
-                            </div>
-                            <div class="flex flex-col xl:hidden mb-[14px]">
-                                <p class="text-sm text-[#9d9d9d]">Итого:</p>
-                                <p class="text-[16px]"><span class="font-bold">1 776</span> р/кг.</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="swiper-slide flex flex-col items-center relative bg-white shadow-xl border-[1px] border-[#d5d5d5] hover:shadow-[#e9e0b5] hover:delay-100 transition-all duration-500">
+                  <div class="flex flex-col absolute top-[6px] md:top-[81px] lg:top-2 left-0 text-white font-semibold">
+                      <div class="flex items-center bg-mainred rounded-r-lg h-6 w-[54px] justify-center"><p>-30%</p></div>
+                      <div class="flex items-center bg-[#fb8c16] rounded-r-lg h-6 w-[54px] justify-center mt-[6px] uppercase"><p>new</p></div>
+                  </div>
+                  <div class="flex flex-col absolute right-[13px] top-4">
+                      <button class="flex items-center">
+                          <img src="Assets/Images/product-slider/heart.webp" alt="">
+                      </button>
+                      <button class="flex items-center mt-4">
+                          <img src="Assets/Images/product-slider/star.webp" alt="">
+                      </button>
+                      <button class="flex items-center mt-4">
+                          <img src="Assets/Images/product-slider/list.webp" alt="">
+                      </button>
+                  </div>
+                  <img src="Assets/Images/product-slider/item1.png" alt="" class="mt-5 px-9 md:h-36 xl:h-48">
+                  <div class="flex flex-col px-4">
+                      <p class="text-sm text-[#5b5b5b] mt-1">Арт: <span>38472</span></p>
+                      <p class="text-base font-bold mt-1 h-[72px] xl:h-auto">Семга слабосоленая пласт «Поедим рыбки» (в/у 0.6-1 кг.)</p>
+                      <div class="flex items-center mt-1 gap-2">
+                          <div class="w-[7px] h-[7px] rounded-full bg-[#65ac00]"></div>
+                          <p class="text-[#65ac00] text-[15px]">Есть в наличии</p>
+                      </div>
+                      <div class="opacity-100">
+                          <div class="flex mt-5">
+                              <div class="flex flex-col w-full">
+                                  <p class="text-[15px] text-[#65ac00] w-fit"><span class="text-xl font-bold">1500</span> р./кг</p>
+                                  <p class="text-sm text-[#5b5b5b] w-fit">Оптом от коробки</p>
+                                  <p class="text-sm text-[#5b5b5b] w-fit">≈ 20 кг</p>
+                              </div>
+                              <div class="bg-[#d5d5d5] mx-2 xl:mx-[10px] h-12 w-px"></div>
+                              <div class="flex flex-col w-full">
+                                  <p class="text-[15px]"><span class="text-xl font-bold">1776</span> р./кг</p>
+                                  <p class="text-sm text-[#5b5b5b]">В розницу</p>
+                              </div>
+                          </div>
+                          <div class="mt-2 xl:mb-3 flex xl:gap-5 lg:justify-between xl:justify-start">
+                              <form class="w-[82px] border-[1px] border-[#d5d5d5] flex h-[43px] counter-kg" data-step="0.1" data-min="0.1" data-max="999">
+                                  <input type="text" class="h-full w-[53px] px-[10px] text-xs font-semibold number-kg" value="0.6 кг">
+                                  <div class="flex flex-col h-full w-4/12">
+                                      <button type="button" class="plus-kg h-1/2 flex items-center justify-center border-[1px] border-t-0 border-[#d5d5d5] w-[28px] group">
+                                          <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
+                                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 0.242091L0.656064 7.25999L2.0597 8.68468L7.99997 2.83259L13.9402 8.68468L15.3439 7.25999L8.22021 0.242091L7.99997 0.465638L7.77973 0.242091Z"/>
+                                          </svg>                                                
+                                      </button>
+                                      <button type="button" class="minus-kg h-1/2 flex items-center justify-center border-[1px] border-y-0 border-[#d5d5d5] w-[28px] group">
+                                          <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#A31D1D] group-active:fill-[#fb8c16]">
+                                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77973 8.75786L0.656064 1.73971L2.0597 0.315009L7.99997 6.1673L13.9402 0.315009L15.3439 1.73971L8.22021 8.75786L7.99997 8.53431L7.77973 8.75786Z"/>
+                                          </svg>                                                                                              
+                                      </button>
+                                  </div>
+                              </form>
+                              <div class="flex flex-col hidden xl:flex xl:20">
+                                  <p class="text-sm text-[#5b5b5b]">Итого:</p>
+                                  <p class="text-[15px]"><span class="text-base font-bold">1776</span> р./кг</p>
+                              </div>
+                              <button class="flex items-center justify-center rounded-full bg-mainred w-[42px] h-[42px]">
+                                  <img src="Assets/Images/product-slider/cart.webp" alt="">
+                              </button>
+                          </div>
+                          <p class="text-sm text-[#5b5b5b] xl:hidden mb-3 mt-2">Итого: <span class="text-base font-bold text-black">1776</span><span class="text-black"> р./кг</span></p>
+                      </div>
+                  </div>
                 </div>
               </div>
-            </div>
           </div>
     </div>
 

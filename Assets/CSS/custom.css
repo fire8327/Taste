@@ -11,6 +11,9 @@ body {
 .swiper-slide-header {
     width:auto!important
 }
+.swiper-slide {
+    height:auto!important
+}
 .categories-slider-prev::after, .categories-slider-next::after, .header-slider-prev::after, .header-slider-next::after, .promo-slider-prev::after,.promo-slider-next::after, .product-slider-prev::after, .product-slider-next::after {
     display:none;
 }

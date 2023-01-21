@@ -39,3 +39,9 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+@media (min-width: 480px) {
+    .product_title {
+        height: 72px;
+    }
+}

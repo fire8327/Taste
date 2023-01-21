@@ -43,7 +43,7 @@ const swiper4 = new Swiper('.stocks-slider', {
       prevEl: '.stocks-slider-prev',
     },
     breakpoints: {
-      320: {
+      480: {
         slidesPerView: 2,
         spaceBetween:16,
       },
@@ -68,7 +68,7 @@ const swiper5 = new Swiper('.news-slider', {
       prevEl: '.news-slider-prev',
     },
     breakpoints: {
-      320: {
+      480: {
         slidesPerView: 2,
         spaceBetween:16,
       },
@@ -93,7 +93,7 @@ const swiper6 = new Swiper('.hits-slider', {
       prevEl: '.hits-slider-prev',
     },
     breakpoints: {
-      320: {
+      480: {
         slidesPerView: 2,
         spaceBetween:16,
       },

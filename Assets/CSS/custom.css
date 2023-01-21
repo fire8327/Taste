@@ -105,4 +105,7 @@ body {
     .footer_left {
         margin-right: 10px;
     }
+    .menu_header_text {
+        display: none;
+    }
 }

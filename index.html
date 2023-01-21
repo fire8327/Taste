@@ -14,37 +14,39 @@
 </head>
 <body>
     <header class="relative">
-        <div class="flex flex-col md:hidden z-50 bg-white" id="menu1">
+        <div class="flex flex-col md:hidden z-50 bg-white w-full" id="menu1">
             <div class="w-full bg-[#f4f4f4]">
-                <div class="container max-w-[1280px] mx-auto flex justify-around items-center h-[44px] font-semibold">
-                    <div class="flex items-center mr-[41px]">
-                        <img src="Assets/Images/header/phone.webp" alt="" class="mr-[11px]">
-                        <p class="text-lg">+7 (929) 949-56-06</p>
+                <div class="container max-w-[1280px] mx-auto flex items-center py-3 font-semibold top_header">
+                    <div class="flex items-center gap-[11px]">
+                        <img src="Assets/Images/header/phone.webp" alt="">
+                        <p class="number_header">+7 (929) 949-56-06</p>
                     </div>
-                    <button class="flex items-center mr-[37px]">
-                        <img src="Assets/Images/header/download.webp" alt="" class="mr-[17px] w-6">
-                        <p class="text-sm uppercase text-[#fb8c16]">скачать прайс</p>
-                    </button>
-                    <img src="Assets/Images/header/signin.webp" alt="" class="mr-[3px]">
+                    <div class="flex items-center right_header">
+                        <button class="flex items-center gap-[17px]">
+                            <img src="Assets/Images/header/download.webp" alt="" class="w-6">
+                            <p class="text-sm uppercase text-[#fb8c16] price_header">скачать прайс</p>
+                        </button>
+                        <img src="Assets/Images/header/signin.webp" alt="" class="mr-[3px]">
+                    </div>
                 </div>
             </div>
-            <div class="container max-w-[1280px] mx-auto flex justify-around h-[68px] items-center relative">
-                <button class="flex items-center mr-[22px]" id="toggler1">
+            <div class="container max-w-[1280px] mx-auto flex justify-around h-[68px] items-center relative gap-4">
+                <button class="flex items-center" id="toggler1">
                     <img src="Assets/Images/header/menu.webp" alt="">
                 </button>
-                <button class="flex items-center mr-[29px]">
+                <button class="flex items-center">
                     <img src="Assets/Images/header/logo.webp" alt="">
                 </button>
-                <button class="flex items-center mr-[26px]" id="search" type="button">
+                <button class="flex items-center" id="search" type="button">
                     <img src="Assets/Images/header/search.webp" alt="">
                 </button>
-                <button class="flex items-center justify-center relative mr-[21px] h-[27px] w-[27px]">
+                <button class="flex items-center justify-center relative h-[27px] w-[27px]">
                     <img src="Assets/Images/header/heart.webp" alt="">
                     <div class="border-[2px] border-mainred rounded-[50%] h-[23px] w-[23px] text-mainred absolute -top-3 -right-3 bg-white flex justify-center items-center">
                         <p class="w-fit font-semibold">0</p>
                     </div>
                 </button>
-                <a class="flex items-center justify-center mr-[19px] font-extrabold">
+                <a class="flex items-center justify-center font-extrabold">
                     <span class="text-mainred text-sm uppercase mr-1.5 hidden xl:flex">корзина</span>
                     <div class="relative md:border-[2px] border-mainred rounded-[50%] md:h-[42px] md:w-[42px] flex items-center lg:border-none">
                         <img src="Assets/Images/header/cart.webp" alt="">
@@ -291,7 +293,7 @@
           </div>
     </div>
     
-    <div class="container max-w-[1280px] mx-auto flex flex-col md:flex-row items-center gap-[30px]">
+    <div class="container max-w-[1280px] mx-auto flex flex-col md:flex-row items-center md:gap-[30px]">
         <div class="swiper promo-slider h-fit w-full md:w-[506px] lg:w-[484px] xl:w-8/12">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper w-full">
@@ -344,17 +346,17 @@
                 </svg>                    
             </div>
         </div>   
-        <div class="flex w-full justify-between mt-4 md:hidden">
-            <div class="flex bg-white border-[1px] border-[#d5d5d5] items-center justify-between pl-[10px] pr-2 h-[60px] w-[px] w-[140px]">
-                <p class="text-sm font-bold uppercase">вход</p>
+        <div class="flex w-full justify-between mt-4 md:hidden info_block">
+            <div class="flex bg-white border-[1px] border-[#d5d5d5] items-center justify-between pl-[10px] pr-2 py-2 w-[px] w-[140px] info_flex">
+                <p class="font-bold uppercase text-center info_p">вход</p>
                 <img src="Assets/Images/info/user.png" alt="">
             </div>
-            <div class="flex bg-white border-[1px] border-[#d5d5d5] items-center justify-between pl-[10px] pr-2 h-[60px] w-[px] w-[140px]">
-                <p class="text-sm font-bold uppercase">отзывы</p>
+            <div class="flex bg-white border-[1px] border-[#d5d5d5] items-center justify-between pl-[10px] pr-2 py-2 w-[px] w-[140px] info_flex">
+                <p class="font-bold uppercase text-center info_p">отзывы</p>
                 <img src="Assets/Images/info/reviews.png" alt="">
             </div>
-            <div class="flex bg-white border-[1px] border-[#d5d5d5] items-center justify-between pl-[10px] pr-2 h-[60px] w-[px] w-[140px]">
-                <p class="text-sm font-bold uppercase">обратный звонок</p>
+            <div class="flex bg-white border-[1px] border-[#d5d5d5] items-center justify-between pl-[10px] pr-2 py-2 w-[px] w-[140px] info_flex">
+                <p class="font-bold uppercase text-center info_p">обратный звонок</p>
                 <img src="Assets/Images/info/call.png" alt="">
             </div>
         </div> 
@@ -530,7 +532,7 @@
 
     <div class="flex flex-col container max-w-[1280px] mx-auto mt-[49px] lg:mt-[69px]">
         <div class="flex justify-between items-center">
-            <div class="flex flex-col h-fit w-fit text-[34px] uppercase relative items-center">
+            <div class="flex flex-col h-fit w-fit name_text uppercase relative items-center">
                 <p class="z-20 h-fit px-[11px] font-semibold">акции</p>
                 <div class="absolute bottom-2 h-[14px] w-full bg-[#ffdf4c]"></div>
             </div>
@@ -810,7 +812,7 @@
 
     <div class="flex flex-col container max-w-[1280px] mx-auto mt-[49px] lg:mt-[69px]">
         <div class="flex justify-between items-center">
-            <div class="flex flex-col h-fit w-fit text-[34px] uppercase relative items-center">
+            <div class="flex flex-col h-fit w-fit name_text uppercase relative items-center">
                 <p class="z-20 h-fit px-[11px] font-semibold">категории</p>
                 <div class="absolute bottom-2 h-[14px] w-full bg-[#ffdf4c]"></div>
             </div>
@@ -1063,7 +1065,7 @@
 
     <div class="flex flex-col container max-w-[1280px] mx-auto mt-[49px] lg:mt-[69px]">
         <div class="flex justify-between items-center">
-            <div class="flex flex-col h-fit w-fit text-[34px] uppercase relative items-center">
+            <div class="flex flex-col h-fit w-fit name_text uppercase relative items-center">
                 <p class="z-20 h-fit px-[11px] font-semibold">новинки</p>
                 <div class="absolute bottom-2 h-[14px] w-full bg-[#ffdf4c]"></div>
             </div>
@@ -1343,7 +1345,7 @@
 
     <div class="flex flex-col container max-w-[1280px] mx-auto mt-[49px] lg:mt-[69px]">
         <div class="flex justify-between items-center">
-            <div class="flex flex-col h-fit w-fit text-[34px] uppercase relative items-center">
+            <div class="flex flex-col h-fit w-fit name_text uppercase relative items-center">
                 <p class="z-20 h-fit px-[11px] font-semibold">хиты продаж</p>
                 <div class="absolute bottom-2 h-[14px] w-full bg-[#ffdf4c]"></div>
             </div>
@@ -1622,7 +1624,7 @@
     </div>
 
     <div class="container max-w-[1280px] mx-auto flex flex-col lg:flex-row hidden md:flex justify-between md:mt-[50px] lg:mt-[71px]">
-        <div class="flex flex-col lg:h-fit text-[34px] uppercase w-fit lg:w-[400px] relative items-center lg:mr-[35px]">
+        <div class="flex flex-col lg:h-fit name_text uppercase w-fit lg:w-[400px] relative items-center lg:mr-[35px]">
             <p class="z-20 h-fit px-[6px] lg:px-[11px] font-semibold">интернет-магазин вкусных продуктов</p>
             <div class="absolute bottom-2 h-[14px] w-full bg-[#ffdf4c]"></div>
         </div>
@@ -1650,7 +1652,7 @@
                     <span class="font-bold text-sm uppercase">подписаться</span>
                 </button>
             </form>
-            <div class="flex items-center lg:flex-col lg:justify-between text-[#fb8c16] uppercase tex-sm lg:mr-[22px] xl:mr-[62px] my-[17px] lg:my-0">
+            <div class="flex items-center lg:flex-col lg:justify-between text-[#fb8c16] uppercase text-sm lg:mr-[22px] xl:mr-[62px] my-[17px] lg:my-0">
                 <a style="border-bottom: 2px dotted #fb8c16" class="lg:mr-0 mr-[13px]">заказать звонок</a>
                 <div class="flex items-center text-[#fb8c16] w-[139px] lg:w-[97px] xl:w-[155px] lg:py-2 lg:py-0 lg:mr-0 mr-[13px] lg:hidden">
                     <button class="h-full w-full border border-[#fb8c16] rounded-lg uppercase font-semibold py-[17px] md:py-4 lg:py-0 xl:py-4">скачать прайс</button>

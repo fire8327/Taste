@@ -69,6 +69,9 @@ body {
     .name_text {
         font-size: 34px;
     }
+    .footer_left {
+        margin-right: 20px;
+    }
 }
 @media (max-width: 479px) {
     .number_header {
@@ -98,5 +101,8 @@ body {
     }
     .name_text {
         font-size: 30px;
+    }
+    .footer_left {
+        margin-right: 10px;
     }
 }
